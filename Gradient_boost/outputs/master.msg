@@ -1,6 +1,6 @@
 1
 
-   Abaqus 2023                                  Date 14-Jan-2025   Time 16:14:59
+   Abaqus 2023                                  Date 14-Jan-2025   Time 17:25:54
    For use by ICOMAT under license from Dassault Systemes or its subsidiary.
 
                                                                                  
@@ -84,8 +84,8 @@
 
 
      JOB TIME SUMMARY
-       USER TIME (SEC)      =     0.10    
+       USER TIME (SEC)      =      0.0    
        SYSTEM TIME (SEC)    =      0.0    
-       TOTAL CPU TIME (SEC) =     0.10    
+       TOTAL CPU TIME (SEC) =      0.0    
        WALLCLOCK TIME (SEC) =            0
        MEMORY PEAK (GB)     =            0

@@ -1,6 +1,6 @@
 1
 
-   Abaqus 2023                                  Date 14-Jan-2025   Time 16:14:56
+   Abaqus 2023                                  Date 14-Jan-2025   Time 17:25:51
    For use by ICOMAT under license from Dassault Systemes or its subsidiary.
 
 
@@ -1052,7 +1052,7 @@
        WALLCLOCK TIME (SEC) =            0
 1
 
-   Abaqus 2023                                  Date 14-Jan-2025   Time 16:14:59
+   Abaqus 2023                                  Date 14-Jan-2025   Time 17:25:54
    For use by ICOMAT under license from Dassault Systemes or its subsidiary.
 
                                                                                                STEP    1  INCREMENT    1
@@ -1077,36 +1077,36 @@
 
                     TOTAL MASS OF MODEL
 
-                      1.4195939E-05
+                      1.4221973E-05
 
 
                     LOCATION OF THE CENTER OF MASS OF THE MODEL
 
-                      -51.93019           47.81762           0.000000    
+                      -51.93412           47.81591           0.000000    
 
 
                     MOMENTS OF INERTIA ABOUT THE ORIGIN
                            I(XX)               I(YY)               I(ZZ)
 
-                      4.2034866E-02      4.6926834E-02      8.8958776E-02
+                      4.2109001E-02      4.7016549E-02      8.9122609E-02
 
 
                     PRODUCTS OF INERTIA ABOUT THE ORIGIN
                            I(XY)               I(XZ)               I(YZ)
 
-                      2.9098052E-02       0.000000           0.000000    
+                      2.9154092E-02       0.000000           0.000000    
 
 
                     MOMENTS OF INERTIA ABOUT THE CENTER OF MASS
                            I(XX)               I(YY)               I(ZZ)
 
-                      9.5755034E-03      8.6440069E-03      1.8216586E-02
+                      9.5924353E-03      8.6577118E-03      1.8247206E-02
 
 
                     PRODUCTS OF INERTIA ABOUT THE CENTER OF MASS
                            I(XY)               I(XZ)               I(YZ)
 
-                     -6.1529931E-03       0.000000           0.000000    
+                     -6.1630094E-03       0.000000           0.000000    
   
                    M E M O R Y   E S T I M A T E
   
@@ -1157,7 +1157,7 @@
 
 
      JOB TIME SUMMARY
-       USER TIME (SEC)      =     0.10    
+       USER TIME (SEC)      =      0.0    
        SYSTEM TIME (SEC)    =      0.0    
-       TOTAL CPU TIME (SEC) =     0.10    
+       TOTAL CPU TIME (SEC) =      0.0    
        WALLCLOCK TIME (SEC) =            0

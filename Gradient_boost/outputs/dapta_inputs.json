@@ -2,8 +2,7 @@
   "components": [
     {
       "inputs": {
-        "composite.panel.CompositeLayup-1-2.0.thickness": 0.4,
-        "composite.panel.CompositeLayup-1-2.2.thickness": 0.2
+        "composite.panel.CompositeLayup-1-2.0.thickness": 0.4
       },
       "name": "abaqus",
       "options": {},
@@ -146,13 +145,6 @@
             "lower": 0.01,
             "upper": 5.0,
             "value": 5.0
-          },
-          {
-            "component": "abaqus",
-            "name": "composite.panel.CompositeLayup-1-2.2.thickness",
-            "lower": 0.01,
-            "upper": 5.0,
-            "value": 5.0
           }
         ],
         "output_variables": [
@@ -161,7 +153,7 @@
             "type": "objective",
             "name": "MASS.Step-1.PART-1-1.STEERED",
             "value": 0.0,
-            "scaler": 1000.0
+            "scaler": 100000.0
           },
           {
             "component": "abaqus",
@@ -180,60 +172,6 @@
               0
             ],
             "upper": 0.02
-          },
-          {
-            "component": "abaqus",
-            "type": "constraint",
-            "name": "U.Step-1.PART-1-1.N60.2",
-            "value": [
-              0
-            ],
-            "lower": -0.05
-          },
-          {
-            "component": "abaqus",
-            "type": "constraint",
-            "name": "T-RATIO-MIN.PART-1-1.CompositeLayup-1-2.2",
-            "value": [
-              0
-            ],
-            "lower": 0.10
-          },
-          {
-            "component": "abaqus",
-            "type": "constraint",
-            "name": "T-RATIO-MAX.PART-1-1.CompositeLayup-1-2.0",
-            "value": [
-              0
-            ],
-            "upper": 0.60
-          },
-          {
-            "component": "abaqus",
-            "type": "constraint",
-            "name": "TSAIW.Step-1.PART-1-1.STEERED.0",
-            "value": [
-              0
-            ],
-            "upper": 0.1
-          },
-          {
-            "component": "abaqus",
-            "type": "constraint",
-            "name": "E.Step-1.PART-1-1.STEERED.0.E12",
-            "value": [
-              0
-            ],
-            "upper": 0.001
-          },
-          {
-            "component": "abaqus",
-            "type": "constraint",
-            "name": "E.Step-1.PART-1-1.STEERED.1.MAX_PRINCIPAL",
-            "value": [
-              0
-            ],
-            "upper": 0.001
           }
         ],
         "driver": {

@@ -7,18 +7,18 @@ Abaqus License Manager checked out the following licenses:
 Abaqus/Foundation checked out 30 tokens from DSLS server 192.168.5.11.
 <130 out of 160 licenses remain available>.
 Begin Analysis Input File Processor
-1/14/2025 4:14:53 PM
+1/14/2025 5:25:49 PM
 Run pre.exe
-1/14/2025 4:14:56 PM
+1/14/2025 5:25:52 PM
 End Analysis Input File Processor
 Begin Abaqus/Standard Analysis
-1/14/2025 4:14:56 PM
+1/14/2025 5:25:52 PM
 Run standard.exe
-1/14/2025 4:14:59 PM
+1/14/2025 5:25:54 PM
 End Abaqus/Standard Analysis
 Begin SIM Wrap-up
-1/14/2025 4:15:01 PM
+1/14/2025 5:25:57 PM
 Run SMASimUtility.exe
-1/14/2025 4:15:01 PM
+1/14/2025 5:25:57 PM
 End SIM Wrap-up
 Abaqus JOB master COMPLETED
