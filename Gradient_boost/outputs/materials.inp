@@ -1,0 +1,7 @@
+*Material, name=Material-1
+*Density
+ 1.58e-09,
+*Elastic, type=LAMINA
+161000.,11400.,  0.32, 5170., 5170., 3980.
+*Fail Stress
+2326.,-1200.,  111., -200.,   92.,    0.,    0.

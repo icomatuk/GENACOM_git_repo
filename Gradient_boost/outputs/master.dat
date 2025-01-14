@@ -1,0 +1,1163 @@
+1
+
+   Abaqus 2023                                  Date 14-Jan-2025   Time 16:14:56
+   For use by ICOMAT under license from Dassault Systemes or its subsidiary.
+
+
+
+                         The Abaqus Software is a product of:
+
+                           Dassault Systemes SIMULIA Corp.
+                           1301 Atwood Avenue, Suite 101W
+                              Johnston, RI 02919, USA
+ 
+
+
+                   The Abaqus Software is available only under license
+                   from Dassault Systemes or its subsidiary and may be
+                   used or reproduced only in accordance with the terms
+                   of such license.
+ 
+                          On machine GeorgeB_desktop 
+                          you are authorized to run
+                          Abaqus/Foundation until 11-Feb-2025
+
+                          Your site id is: 200000000889543 
+
+
+ 
+                    For assistance or any other information you may
+                    obtain contact information for your local office
+                    from the world wide web at:
+
+                      http://www.3ds.com/products/simulia/locations/
+
+ 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+                *                                                         * 
+                *                   *****************                     * 
+                *                   *  N O T I C E  *                     * 
+                *                   *****************                     * 
+                *                                                         * 
+                *                                                         * 
+                *                       Abaqus 2023                       * 
+                *                                                         * 
+                *          BUILD ID: 2022_09_28-21.11.55 183150           * 
+                *                                                         * 
+                *                                                         * 
+                *  Please make sure you are using                         * 
+                *  release Abaqus 2023 manuals                            * 
+                *  plus the notes accompanying this release.              * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+ 
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+     END PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   ***********************************************************
+
+
+
+
+     OPTIONS BEING PROCESSED
+   ***************************
+
+
+  *Heading
+  *Node
+  *Element, type=S4R
+  *Nset, nset=ASSEMBLY_PART-1-1_FIXED
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-1
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-1_0
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_1
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_10
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_100
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_101
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_102
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_103
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_104
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_105
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_106
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_107
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_108
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_109
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_11
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_110
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_111
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_112
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_113
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_114
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_115
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_116
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_117
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_118
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_119
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_12
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_120
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_121
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_122
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_123
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_124
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_125
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_126
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_127
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_128
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_129
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_13
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_130
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_131
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_132
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_133
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_134
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_135
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_136
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_137
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_138
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_139
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_14
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_140
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_141
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_142
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_143
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_144
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_145
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_146
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_147
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_148
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_149
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_15
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_150
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_151
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_152
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_153
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_154
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_155
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_156
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_157
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_158
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_159
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_16
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_160
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_161
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_162
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_163
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_164
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_165
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_166
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_167
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_168
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_169
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_17
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_170
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_171
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_172
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_173
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_174
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_175
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_176
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_177
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_178
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_179
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_18
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_180
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_181
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_182
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_183
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_184
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_185
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_186
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_187
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_188
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_189
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_19
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_190
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_191
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_192
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_193
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_194
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_195
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_196
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_197
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_198
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_199
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_2
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_20
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_200
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_201
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_202
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_203
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_204
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_205
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_206
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_207
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_208
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_209
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_21
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_210
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_211
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_212
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_213
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_214
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_215
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_216
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_217
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_218
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_219
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_22
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_220
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_221
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_222
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_223
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_224
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_225
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_226
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_227
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_228
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_229
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_23
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_230
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_231
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_232
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_233
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_234
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_235
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_236
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_237
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_238
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_239
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_24
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_240
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_241
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_242
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_243
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_244
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_245
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_246
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_247
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_248
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_249
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_25
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_250
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_251
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_252
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_253
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_254
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_255
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_256
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_257
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_258
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_259
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_26
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_260
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_261
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_262
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_263
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_264
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_265
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_266
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_267
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_268
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_269
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_27
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_270
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_271
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_272
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_273
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_274
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_275
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_276
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_277
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_278
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_279
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_28
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_280
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_281
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_282
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_283
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_284
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_285
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_286
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_29
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_3
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_30
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_31
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_32
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_33
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_34
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_35
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_36
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_37
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_38
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_39
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_4
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_40
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_41
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_42
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_43
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_44
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_45
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_46
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_47
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_48
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_49
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_5
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_50
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_51
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_52
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_53
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_54
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_55
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_56
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_57
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_58
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_59
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_6
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_60
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_61
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_62
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_63
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_64
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_65
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_66
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_67
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_68
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_69
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_7
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_70
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_71
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_72
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_73
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_74
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_75
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_76
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_77
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_78
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_79
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_8
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_80
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_81
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_82
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_83
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_84
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_85
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_86
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_87
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_88
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_89
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_9
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_90
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_91
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_92
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_93
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_94
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_95
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_96
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_97
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_98
+  *Elset, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_99
+  *Elset, elset=ASSEMBLY_PART-1-1_EDGE
+  *Elset, elset=ASSEMBLY_PART-1-1_STEERED
+  *Elset, elset=ASSEMBLY__SURF-1_E2
+  *material, name=MATERIAL-1
+  *density
+  *elastic, type=LAMINA
+  *failstress
+
+ ***WARNING: NO BIAXIAL STRESS LIMIT GIVEN.  DEFAULT F12 USED.
+  *orientation, name=ASSEMBLY_PART-1-1_ORI-2
+  *orientation, name=ASSEMBLY_PART-1-1_ORI-1
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_1, density=0, layup=COMPOSITELAYUP-1-2_1, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_2, density=0, layup=COMPOSITELAYUP-1-2_2, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_3, density=0, layup=COMPOSITELAYUP-1-2_3, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_4, density=0, layup=COMPOSITELAYUP-1-2_4, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_5, density=0, layup=COMPOSITELAYUP-1-2_5, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_6, density=0, layup=COMPOSITELAYUP-1-2_6, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_7, density=0, layup=COMPOSITELAYUP-1-2_7, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_8, density=0, layup=COMPOSITELAYUP-1-2_8, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_9, density=0, layup=COMPOSITELAYUP-1-2_9, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_10, density=0, layup=COMPOSITELAYUP-1-2_10, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_11, density=0, layup=COMPOSITELAYUP-1-2_11, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_12, density=0, layup=COMPOSITELAYUP-1-2_12, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_13, density=0, layup=COMPOSITELAYUP-1-2_13, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_14, density=0, layup=COMPOSITELAYUP-1-2_14, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_15, density=0, layup=COMPOSITELAYUP-1-2_15, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_16, density=0, layup=COMPOSITELAYUP-1-2_16, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_17, density=0, layup=COMPOSITELAYUP-1-2_17, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_18, density=0, layup=COMPOSITELAYUP-1-2_18, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_19, density=0, layup=COMPOSITELAYUP-1-2_19, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_20, density=0, layup=COMPOSITELAYUP-1-2_20, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_21, density=0, layup=COMPOSITELAYUP-1-2_21, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_22, density=0, layup=COMPOSITELAYUP-1-2_22, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_23, density=0, layup=COMPOSITELAYUP-1-2_23, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_24, density=0, layup=COMPOSITELAYUP-1-2_24, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_25, density=0, layup=COMPOSITELAYUP-1-2_25, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_26, density=0, layup=COMPOSITELAYUP-1-2_26, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_27, density=0, layup=COMPOSITELAYUP-1-2_27, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_28, density=0, layup=COMPOSITELAYUP-1-2_28, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_29, density=0, layup=COMPOSITELAYUP-1-2_29, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_30, density=0, layup=COMPOSITELAYUP-1-2_30, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_31, density=0, layup=COMPOSITELAYUP-1-2_31, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_32, density=0, layup=COMPOSITELAYUP-1-2_32, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_33, density=0, layup=COMPOSITELAYUP-1-2_33, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_34, density=0, layup=COMPOSITELAYUP-1-2_34, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_35, density=0, layup=COMPOSITELAYUP-1-2_35, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_36, density=0, layup=COMPOSITELAYUP-1-2_36, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_37, density=0, layup=COMPOSITELAYUP-1-2_37, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_38, density=0, layup=COMPOSITELAYUP-1-2_38, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_39, density=0, layup=COMPOSITELAYUP-1-2_39, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_40, density=0, layup=COMPOSITELAYUP-1-2_40, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_41, density=0, layup=COMPOSITELAYUP-1-2_41, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_42, density=0, layup=COMPOSITELAYUP-1-2_42, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_43, density=0, layup=COMPOSITELAYUP-1-2_43, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_44, density=0, layup=COMPOSITELAYUP-1-2_44, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_45, density=0, layup=COMPOSITELAYUP-1-2_45, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_46, density=0, layup=COMPOSITELAYUP-1-2_46, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_47, density=0, layup=COMPOSITELAYUP-1-2_47, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_48, density=0, layup=COMPOSITELAYUP-1-2_48, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_49, density=0, layup=COMPOSITELAYUP-1-2_49, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_50, density=0, layup=COMPOSITELAYUP-1-2_50, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_51, density=0, layup=COMPOSITELAYUP-1-2_51, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_52, density=0, layup=COMPOSITELAYUP-1-2_52, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_53, density=0, layup=COMPOSITELAYUP-1-2_53, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_54, density=0, layup=COMPOSITELAYUP-1-2_54, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_55, density=0, layup=COMPOSITELAYUP-1-2_55, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_56, density=0, layup=COMPOSITELAYUP-1-2_56, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_57, density=0, layup=COMPOSITELAYUP-1-2_57, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_58, density=0, layup=COMPOSITELAYUP-1-2_58, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_59, density=0, layup=COMPOSITELAYUP-1-2_59, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_60, density=0, layup=COMPOSITELAYUP-1-2_60, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_61, density=0, layup=COMPOSITELAYUP-1-2_61, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_62, density=0, layup=COMPOSITELAYUP-1-2_62, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_63, density=0, layup=COMPOSITELAYUP-1-2_63, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_64, density=0, layup=COMPOSITELAYUP-1-2_64, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_65, density=0, layup=COMPOSITELAYUP-1-2_65, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_66, density=0, layup=COMPOSITELAYUP-1-2_66, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_67, density=0, layup=COMPOSITELAYUP-1-2_67, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_68, density=0, layup=COMPOSITELAYUP-1-2_68, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_69, density=0, layup=COMPOSITELAYUP-1-2_69, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_70, density=0, layup=COMPOSITELAYUP-1-2_70, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_71, density=0, layup=COMPOSITELAYUP-1-2_71, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_72, density=0, layup=COMPOSITELAYUP-1-2_72, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_73, density=0, layup=COMPOSITELAYUP-1-2_73, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_74, density=0, layup=COMPOSITELAYUP-1-2_74, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_75, density=0, layup=COMPOSITELAYUP-1-2_75, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_76, density=0, layup=COMPOSITELAYUP-1-2_76, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_77, density=0, layup=COMPOSITELAYUP-1-2_77, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_78, density=0, layup=COMPOSITELAYUP-1-2_78, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_79, density=0, layup=COMPOSITELAYUP-1-2_79, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_80, density=0, layup=COMPOSITELAYUP-1-2_80, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_81, density=0, layup=COMPOSITELAYUP-1-2_81, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_82, density=0, layup=COMPOSITELAYUP-1-2_82, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_83, density=0, layup=COMPOSITELAYUP-1-2_83, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_84, density=0, layup=COMPOSITELAYUP-1-2_84, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_85, density=0, layup=COMPOSITELAYUP-1-2_85, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_86, density=0, layup=COMPOSITELAYUP-1-2_86, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_87, density=0, layup=COMPOSITELAYUP-1-2_87, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_88, density=0, layup=COMPOSITELAYUP-1-2_88, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_89, density=0, layup=COMPOSITELAYUP-1-2_89, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_90, density=0, layup=COMPOSITELAYUP-1-2_90, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_91, density=0, layup=COMPOSITELAYUP-1-2_91, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_92, density=0, layup=COMPOSITELAYUP-1-2_92, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_93, density=0, layup=COMPOSITELAYUP-1-2_93, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_94, density=0, layup=COMPOSITELAYUP-1-2_94, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_95, density=0, layup=COMPOSITELAYUP-1-2_95, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_96, density=0, layup=COMPOSITELAYUP-1-2_96, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_97, density=0, layup=COMPOSITELAYUP-1-2_97, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_98, density=0, layup=COMPOSITELAYUP-1-2_98, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_99, density=0, layup=COMPOSITELAYUP-1-2_99, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_100, density=0, layup=COMPOSITELAYUP-1-2_100, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_101, density=0, layup=COMPOSITELAYUP-1-2_101, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_102, density=0, layup=COMPOSITELAYUP-1-2_102, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_103, density=0, layup=COMPOSITELAYUP-1-2_103, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_104, density=0, layup=COMPOSITELAYUP-1-2_104, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_105, density=0, layup=COMPOSITELAYUP-1-2_105, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_106, density=0, layup=COMPOSITELAYUP-1-2_106, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_107, density=0, layup=COMPOSITELAYUP-1-2_107, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_108, density=0, layup=COMPOSITELAYUP-1-2_108, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_109, density=0, layup=COMPOSITELAYUP-1-2_109, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_110, density=0, layup=COMPOSITELAYUP-1-2_110, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_111, density=0, layup=COMPOSITELAYUP-1-2_111, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_112, density=0, layup=COMPOSITELAYUP-1-2_112, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_113, density=0, layup=COMPOSITELAYUP-1-2_113, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_114, density=0, layup=COMPOSITELAYUP-1-2_114, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_115, density=0, layup=COMPOSITELAYUP-1-2_115, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_116, density=0, layup=COMPOSITELAYUP-1-2_116, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_117, density=0, layup=COMPOSITELAYUP-1-2_117, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_118, density=0, layup=COMPOSITELAYUP-1-2_118, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_119, density=0, layup=COMPOSITELAYUP-1-2_119, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_120, density=0, layup=COMPOSITELAYUP-1-2_120, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_121, density=0, layup=COMPOSITELAYUP-1-2_121, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_122, density=0, layup=COMPOSITELAYUP-1-2_122, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_123, density=0, layup=COMPOSITELAYUP-1-2_123, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_124, density=0, layup=COMPOSITELAYUP-1-2_124, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_125, density=0, layup=COMPOSITELAYUP-1-2_125, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_126, density=0, layup=COMPOSITELAYUP-1-2_126, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_127, density=0, layup=COMPOSITELAYUP-1-2_127, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_128, density=0, layup=COMPOSITELAYUP-1-2_128, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_129, density=0, layup=COMPOSITELAYUP-1-2_129, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_130, density=0, layup=COMPOSITELAYUP-1-2_130, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_131, density=0, layup=COMPOSITELAYUP-1-2_131, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_132, density=0, layup=COMPOSITELAYUP-1-2_132, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_133, density=0, layup=COMPOSITELAYUP-1-2_133, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_134, density=0, layup=COMPOSITELAYUP-1-2_134, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_135, density=0, layup=COMPOSITELAYUP-1-2_135, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_136, density=0, layup=COMPOSITELAYUP-1-2_136, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_137, density=0, layup=COMPOSITELAYUP-1-2_137, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_138, density=0, layup=COMPOSITELAYUP-1-2_138, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_139, density=0, layup=COMPOSITELAYUP-1-2_139, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_140, density=0, layup=COMPOSITELAYUP-1-2_140, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_141, density=0, layup=COMPOSITELAYUP-1-2_141, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_142, density=0, layup=COMPOSITELAYUP-1-2_142, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_143, density=0, layup=COMPOSITELAYUP-1-2_143, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_144, density=0, layup=COMPOSITELAYUP-1-2_144, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_145, density=0, layup=COMPOSITELAYUP-1-2_145, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_146, density=0, layup=COMPOSITELAYUP-1-2_146, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_147, density=0, layup=COMPOSITELAYUP-1-2_147, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_148, density=0, layup=COMPOSITELAYUP-1-2_148, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_149, density=0, layup=COMPOSITELAYUP-1-2_149, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_150, density=0, layup=COMPOSITELAYUP-1-2_150, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_151, density=0, layup=COMPOSITELAYUP-1-2_151, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_152, density=0, layup=COMPOSITELAYUP-1-2_152, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_153, density=0, layup=COMPOSITELAYUP-1-2_153, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_154, density=0, layup=COMPOSITELAYUP-1-2_154, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_155, density=0, layup=COMPOSITELAYUP-1-2_155, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_156, density=0, layup=COMPOSITELAYUP-1-2_156, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_157, density=0, layup=COMPOSITELAYUP-1-2_157, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_158, density=0, layup=COMPOSITELAYUP-1-2_158, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_159, density=0, layup=COMPOSITELAYUP-1-2_159, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_160, density=0, layup=COMPOSITELAYUP-1-2_160, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_161, density=0, layup=COMPOSITELAYUP-1-2_161, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_162, density=0, layup=COMPOSITELAYUP-1-2_162, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_163, density=0, layup=COMPOSITELAYUP-1-2_163, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_164, density=0, layup=COMPOSITELAYUP-1-2_164, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_165, density=0, layup=COMPOSITELAYUP-1-2_165, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_166, density=0, layup=COMPOSITELAYUP-1-2_166, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_167, density=0, layup=COMPOSITELAYUP-1-2_167, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_168, density=0, layup=COMPOSITELAYUP-1-2_168, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_169, density=0, layup=COMPOSITELAYUP-1-2_169, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_170, density=0, layup=COMPOSITELAYUP-1-2_170, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_171, density=0, layup=COMPOSITELAYUP-1-2_171, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_172, density=0, layup=COMPOSITELAYUP-1-2_172, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_173, density=0, layup=COMPOSITELAYUP-1-2_173, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_174, density=0, layup=COMPOSITELAYUP-1-2_174, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_175, density=0, layup=COMPOSITELAYUP-1-2_175, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_176, density=0, layup=COMPOSITELAYUP-1-2_176, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_177, density=0, layup=COMPOSITELAYUP-1-2_177, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_178, density=0, layup=COMPOSITELAYUP-1-2_178, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_179, density=0, layup=COMPOSITELAYUP-1-2_179, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_180, density=0, layup=COMPOSITELAYUP-1-2_180, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_181, density=0, layup=COMPOSITELAYUP-1-2_181, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_182, density=0, layup=COMPOSITELAYUP-1-2_182, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_183, density=0, layup=COMPOSITELAYUP-1-2_183, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_184, density=0, layup=COMPOSITELAYUP-1-2_184, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_185, density=0, layup=COMPOSITELAYUP-1-2_185, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_186, density=0, layup=COMPOSITELAYUP-1-2_186, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_187, density=0, layup=COMPOSITELAYUP-1-2_187, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_188, density=0, layup=COMPOSITELAYUP-1-2_188, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_189, density=0, layup=COMPOSITELAYUP-1-2_189, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_190, density=0, layup=COMPOSITELAYUP-1-2_190, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_191, density=0, layup=COMPOSITELAYUP-1-2_191, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_192, density=0, layup=COMPOSITELAYUP-1-2_192, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_193, density=0, layup=COMPOSITELAYUP-1-2_193, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_194, density=0, layup=COMPOSITELAYUP-1-2_194, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_195, density=0, layup=COMPOSITELAYUP-1-2_195, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_196, density=0, layup=COMPOSITELAYUP-1-2_196, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_197, density=0, layup=COMPOSITELAYUP-1-2_197, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_198, density=0, layup=COMPOSITELAYUP-1-2_198, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_199, density=0, layup=COMPOSITELAYUP-1-2_199, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_200, density=0, layup=COMPOSITELAYUP-1-2_200, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_201, density=0, layup=COMPOSITELAYUP-1-2_201, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_202, density=0, layup=COMPOSITELAYUP-1-2_202, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_203, density=0, layup=COMPOSITELAYUP-1-2_203, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_204, density=0, layup=COMPOSITELAYUP-1-2_204, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_205, density=0, layup=COMPOSITELAYUP-1-2_205, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_206, density=0, layup=COMPOSITELAYUP-1-2_206, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_207, density=0, layup=COMPOSITELAYUP-1-2_207, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_208, density=0, layup=COMPOSITELAYUP-1-2_208, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_209, density=0, layup=COMPOSITELAYUP-1-2_209, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_210, density=0, layup=COMPOSITELAYUP-1-2_210, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_211, density=0, layup=COMPOSITELAYUP-1-2_211, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_212, density=0, layup=COMPOSITELAYUP-1-2_212, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_213, density=0, layup=COMPOSITELAYUP-1-2_213, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_214, density=0, layup=COMPOSITELAYUP-1-2_214, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_215, density=0, layup=COMPOSITELAYUP-1-2_215, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_216, density=0, layup=COMPOSITELAYUP-1-2_216, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_217, density=0, layup=COMPOSITELAYUP-1-2_217, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_218, density=0, layup=COMPOSITELAYUP-1-2_218, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_219, density=0, layup=COMPOSITELAYUP-1-2_219, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_220, density=0, layup=COMPOSITELAYUP-1-2_220, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_221, density=0, layup=COMPOSITELAYUP-1-2_221, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_222, density=0, layup=COMPOSITELAYUP-1-2_222, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_223, density=0, layup=COMPOSITELAYUP-1-2_223, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_224, density=0, layup=COMPOSITELAYUP-1-2_224, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_225, density=0, layup=COMPOSITELAYUP-1-2_225, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_226, density=0, layup=COMPOSITELAYUP-1-2_226, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_227, density=0, layup=COMPOSITELAYUP-1-2_227, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_228, density=0, layup=COMPOSITELAYUP-1-2_228, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_229, density=0, layup=COMPOSITELAYUP-1-2_229, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_230, density=0, layup=COMPOSITELAYUP-1-2_230, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_231, density=0, layup=COMPOSITELAYUP-1-2_231, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_232, density=0, layup=COMPOSITELAYUP-1-2_232, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_233, density=0, layup=COMPOSITELAYUP-1-2_233, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_234, density=0, layup=COMPOSITELAYUP-1-2_234, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_235, density=0, layup=COMPOSITELAYUP-1-2_235, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_236, density=0, layup=COMPOSITELAYUP-1-2_236, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_237, density=0, layup=COMPOSITELAYUP-1-2_237, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_238, density=0, layup=COMPOSITELAYUP-1-2_238, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_239, density=0, layup=COMPOSITELAYUP-1-2_239, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_240, density=0, layup=COMPOSITELAYUP-1-2_240, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_241, density=0, layup=COMPOSITELAYUP-1-2_241, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_242, density=0, layup=COMPOSITELAYUP-1-2_242, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_243, density=0, layup=COMPOSITELAYUP-1-2_243, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_244, density=0, layup=COMPOSITELAYUP-1-2_244, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_245, density=0, layup=COMPOSITELAYUP-1-2_245, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_246, density=0, layup=COMPOSITELAYUP-1-2_246, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_247, density=0, layup=COMPOSITELAYUP-1-2_247, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_248, density=0, layup=COMPOSITELAYUP-1-2_248, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_249, density=0, layup=COMPOSITELAYUP-1-2_249, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_250, density=0, layup=COMPOSITELAYUP-1-2_250, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_251, density=0, layup=COMPOSITELAYUP-1-2_251, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_252, density=0, layup=COMPOSITELAYUP-1-2_252, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_253, density=0, layup=COMPOSITELAYUP-1-2_253, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_254, density=0, layup=COMPOSITELAYUP-1-2_254, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_255, density=0, layup=COMPOSITELAYUP-1-2_255, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_256, density=0, layup=COMPOSITELAYUP-1-2_256, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_257, density=0, layup=COMPOSITELAYUP-1-2_257, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_258, density=0, layup=COMPOSITELAYUP-1-2_258, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_259, density=0, layup=COMPOSITELAYUP-1-2_259, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_260, density=0, layup=COMPOSITELAYUP-1-2_260, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_261, density=0, layup=COMPOSITELAYUP-1-2_261, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_262, density=0, layup=COMPOSITELAYUP-1-2_262, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_263, density=0, layup=COMPOSITELAYUP-1-2_263, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_264, density=0, layup=COMPOSITELAYUP-1-2_264, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_265, density=0, layup=COMPOSITELAYUP-1-2_265, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_266, density=0, layup=COMPOSITELAYUP-1-2_266, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_267, density=0, layup=COMPOSITELAYUP-1-2_267, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_268, density=0, layup=COMPOSITELAYUP-1-2_268, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_269, density=0, layup=COMPOSITELAYUP-1-2_269, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_270, density=0, layup=COMPOSITELAYUP-1-2_270, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_271, density=0, layup=COMPOSITELAYUP-1-2_271, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_272, density=0, layup=COMPOSITELAYUP-1-2_272, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_273, density=0, layup=COMPOSITELAYUP-1-2_273, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_274, density=0, layup=COMPOSITELAYUP-1-2_274, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_275, density=0, layup=COMPOSITELAYUP-1-2_275, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_276, density=0, layup=COMPOSITELAYUP-1-2_276, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_277, density=0, layup=COMPOSITELAYUP-1-2_277, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_278, density=0, layup=COMPOSITELAYUP-1-2_278, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_279, density=0, layup=COMPOSITELAYUP-1-2_279, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_280, density=0, layup=COMPOSITELAYUP-1-2_280, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_281, density=0, layup=COMPOSITELAYUP-1-2_281, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_282, density=0, layup=COMPOSITELAYUP-1-2_282, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_283, density=0, layup=COMPOSITELAYUP-1-2_283, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_284, density=0, layup=COMPOSITELAYUP-1-2_284, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_285, density=0, layup=COMPOSITELAYUP-1-2_285, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_286, density=0, layup=COMPOSITELAYUP-1-2_286, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-1_0, density=0, layup=COMPOSITELAYUP-1-1_0, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_1, density=0, layup=COMPOSITELAYUP-1-2_1, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_2, density=0, layup=COMPOSITELAYUP-1-2_2, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_3, density=0, layup=COMPOSITELAYUP-1-2_3, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_4, density=0, layup=COMPOSITELAYUP-1-2_4, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_5, density=0, layup=COMPOSITELAYUP-1-2_5, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_6, density=0, layup=COMPOSITELAYUP-1-2_6, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_7, density=0, layup=COMPOSITELAYUP-1-2_7, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_8, density=0, layup=COMPOSITELAYUP-1-2_8, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_9, density=0, layup=COMPOSITELAYUP-1-2_9, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_10, density=0, layup=COMPOSITELAYUP-1-2_10, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_11, density=0, layup=COMPOSITELAYUP-1-2_11, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_12, density=0, layup=COMPOSITELAYUP-1-2_12, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_13, density=0, layup=COMPOSITELAYUP-1-2_13, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_14, density=0, layup=COMPOSITELAYUP-1-2_14, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_15, density=0, layup=COMPOSITELAYUP-1-2_15, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_16, density=0, layup=COMPOSITELAYUP-1-2_16, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_17, density=0, layup=COMPOSITELAYUP-1-2_17, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_18, density=0, layup=COMPOSITELAYUP-1-2_18, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_19, density=0, layup=COMPOSITELAYUP-1-2_19, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_20, density=0, layup=COMPOSITELAYUP-1-2_20, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_21, density=0, layup=COMPOSITELAYUP-1-2_21, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_22, density=0, layup=COMPOSITELAYUP-1-2_22, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_23, density=0, layup=COMPOSITELAYUP-1-2_23, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_24, density=0, layup=COMPOSITELAYUP-1-2_24, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_25, density=0, layup=COMPOSITELAYUP-1-2_25, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_26, density=0, layup=COMPOSITELAYUP-1-2_26, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_27, density=0, layup=COMPOSITELAYUP-1-2_27, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_28, density=0, layup=COMPOSITELAYUP-1-2_28, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_29, density=0, layup=COMPOSITELAYUP-1-2_29, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_30, density=0, layup=COMPOSITELAYUP-1-2_30, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_31, density=0, layup=COMPOSITELAYUP-1-2_31, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_32, density=0, layup=COMPOSITELAYUP-1-2_32, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_33, density=0, layup=COMPOSITELAYUP-1-2_33, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_34, density=0, layup=COMPOSITELAYUP-1-2_34, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_35, density=0, layup=COMPOSITELAYUP-1-2_35, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_36, density=0, layup=COMPOSITELAYUP-1-2_36, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_37, density=0, layup=COMPOSITELAYUP-1-2_37, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_38, density=0, layup=COMPOSITELAYUP-1-2_38, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_39, density=0, layup=COMPOSITELAYUP-1-2_39, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_40, density=0, layup=COMPOSITELAYUP-1-2_40, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_41, density=0, layup=COMPOSITELAYUP-1-2_41, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_42, density=0, layup=COMPOSITELAYUP-1-2_42, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_43, density=0, layup=COMPOSITELAYUP-1-2_43, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_44, density=0, layup=COMPOSITELAYUP-1-2_44, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_45, density=0, layup=COMPOSITELAYUP-1-2_45, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_46, density=0, layup=COMPOSITELAYUP-1-2_46, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_47, density=0, layup=COMPOSITELAYUP-1-2_47, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_48, density=0, layup=COMPOSITELAYUP-1-2_48, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_49, density=0, layup=COMPOSITELAYUP-1-2_49, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_50, density=0, layup=COMPOSITELAYUP-1-2_50, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_51, density=0, layup=COMPOSITELAYUP-1-2_51, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_52, density=0, layup=COMPOSITELAYUP-1-2_52, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_53, density=0, layup=COMPOSITELAYUP-1-2_53, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_54, density=0, layup=COMPOSITELAYUP-1-2_54, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_55, density=0, layup=COMPOSITELAYUP-1-2_55, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_56, density=0, layup=COMPOSITELAYUP-1-2_56, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_57, density=0, layup=COMPOSITELAYUP-1-2_57, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_58, density=0, layup=COMPOSITELAYUP-1-2_58, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_59, density=0, layup=COMPOSITELAYUP-1-2_59, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_60, density=0, layup=COMPOSITELAYUP-1-2_60, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_61, density=0, layup=COMPOSITELAYUP-1-2_61, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_62, density=0, layup=COMPOSITELAYUP-1-2_62, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_63, density=0, layup=COMPOSITELAYUP-1-2_63, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_64, density=0, layup=COMPOSITELAYUP-1-2_64, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_65, density=0, layup=COMPOSITELAYUP-1-2_65, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_66, density=0, layup=COMPOSITELAYUP-1-2_66, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_67, density=0, layup=COMPOSITELAYUP-1-2_67, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_68, density=0, layup=COMPOSITELAYUP-1-2_68, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_69, density=0, layup=COMPOSITELAYUP-1-2_69, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_70, density=0, layup=COMPOSITELAYUP-1-2_70, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_71, density=0, layup=COMPOSITELAYUP-1-2_71, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_72, density=0, layup=COMPOSITELAYUP-1-2_72, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_73, density=0, layup=COMPOSITELAYUP-1-2_73, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_74, density=0, layup=COMPOSITELAYUP-1-2_74, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_75, density=0, layup=COMPOSITELAYUP-1-2_75, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_76, density=0, layup=COMPOSITELAYUP-1-2_76, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_77, density=0, layup=COMPOSITELAYUP-1-2_77, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_78, density=0, layup=COMPOSITELAYUP-1-2_78, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_79, density=0, layup=COMPOSITELAYUP-1-2_79, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_80, density=0, layup=COMPOSITELAYUP-1-2_80, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_81, density=0, layup=COMPOSITELAYUP-1-2_81, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_82, density=0, layup=COMPOSITELAYUP-1-2_82, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_83, density=0, layup=COMPOSITELAYUP-1-2_83, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_84, density=0, layup=COMPOSITELAYUP-1-2_84, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_85, density=0, layup=COMPOSITELAYUP-1-2_85, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_86, density=0, layup=COMPOSITELAYUP-1-2_86, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_87, density=0, layup=COMPOSITELAYUP-1-2_87, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_88, density=0, layup=COMPOSITELAYUP-1-2_88, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_89, density=0, layup=COMPOSITELAYUP-1-2_89, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_90, density=0, layup=COMPOSITELAYUP-1-2_90, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_91, density=0, layup=COMPOSITELAYUP-1-2_91, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_92, density=0, layup=COMPOSITELAYUP-1-2_92, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_93, density=0, layup=COMPOSITELAYUP-1-2_93, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_94, density=0, layup=COMPOSITELAYUP-1-2_94, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_95, density=0, layup=COMPOSITELAYUP-1-2_95, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_96, density=0, layup=COMPOSITELAYUP-1-2_96, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_97, density=0, layup=COMPOSITELAYUP-1-2_97, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_98, density=0, layup=COMPOSITELAYUP-1-2_98, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_99, density=0, layup=COMPOSITELAYUP-1-2_99, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_100, density=0, layup=COMPOSITELAYUP-1-2_100, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_101, density=0, layup=COMPOSITELAYUP-1-2_101, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_102, density=0, layup=COMPOSITELAYUP-1-2_102, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_103, density=0, layup=COMPOSITELAYUP-1-2_103, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_104, density=0, layup=COMPOSITELAYUP-1-2_104, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_105, density=0, layup=COMPOSITELAYUP-1-2_105, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_106, density=0, layup=COMPOSITELAYUP-1-2_106, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_107, density=0, layup=COMPOSITELAYUP-1-2_107, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_108, density=0, layup=COMPOSITELAYUP-1-2_108, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_109, density=0, layup=COMPOSITELAYUP-1-2_109, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_110, density=0, layup=COMPOSITELAYUP-1-2_110, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_111, density=0, layup=COMPOSITELAYUP-1-2_111, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_112, density=0, layup=COMPOSITELAYUP-1-2_112, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_113, density=0, layup=COMPOSITELAYUP-1-2_113, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_114, density=0, layup=COMPOSITELAYUP-1-2_114, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_115, density=0, layup=COMPOSITELAYUP-1-2_115, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_116, density=0, layup=COMPOSITELAYUP-1-2_116, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_117, density=0, layup=COMPOSITELAYUP-1-2_117, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_118, density=0, layup=COMPOSITELAYUP-1-2_118, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_119, density=0, layup=COMPOSITELAYUP-1-2_119, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_120, density=0, layup=COMPOSITELAYUP-1-2_120, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_121, density=0, layup=COMPOSITELAYUP-1-2_121, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_122, density=0, layup=COMPOSITELAYUP-1-2_122, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_123, density=0, layup=COMPOSITELAYUP-1-2_123, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_124, density=0, layup=COMPOSITELAYUP-1-2_124, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_125, density=0, layup=COMPOSITELAYUP-1-2_125, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_126, density=0, layup=COMPOSITELAYUP-1-2_126, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_127, density=0, layup=COMPOSITELAYUP-1-2_127, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_128, density=0, layup=COMPOSITELAYUP-1-2_128, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_129, density=0, layup=COMPOSITELAYUP-1-2_129, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_130, density=0, layup=COMPOSITELAYUP-1-2_130, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_131, density=0, layup=COMPOSITELAYUP-1-2_131, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_132, density=0, layup=COMPOSITELAYUP-1-2_132, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_133, density=0, layup=COMPOSITELAYUP-1-2_133, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_134, density=0, layup=COMPOSITELAYUP-1-2_134, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_135, density=0, layup=COMPOSITELAYUP-1-2_135, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_136, density=0, layup=COMPOSITELAYUP-1-2_136, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_137, density=0, layup=COMPOSITELAYUP-1-2_137, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_138, density=0, layup=COMPOSITELAYUP-1-2_138, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_139, density=0, layup=COMPOSITELAYUP-1-2_139, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_140, density=0, layup=COMPOSITELAYUP-1-2_140, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_141, density=0, layup=COMPOSITELAYUP-1-2_141, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_142, density=0, layup=COMPOSITELAYUP-1-2_142, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_143, density=0, layup=COMPOSITELAYUP-1-2_143, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_144, density=0, layup=COMPOSITELAYUP-1-2_144, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_145, density=0, layup=COMPOSITELAYUP-1-2_145, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_146, density=0, layup=COMPOSITELAYUP-1-2_146, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_147, density=0, layup=COMPOSITELAYUP-1-2_147, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_148, density=0, layup=COMPOSITELAYUP-1-2_148, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_149, density=0, layup=COMPOSITELAYUP-1-2_149, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_150, density=0, layup=COMPOSITELAYUP-1-2_150, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_151, density=0, layup=COMPOSITELAYUP-1-2_151, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_152, density=0, layup=COMPOSITELAYUP-1-2_152, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_153, density=0, layup=COMPOSITELAYUP-1-2_153, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_154, density=0, layup=COMPOSITELAYUP-1-2_154, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_155, density=0, layup=COMPOSITELAYUP-1-2_155, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_156, density=0, layup=COMPOSITELAYUP-1-2_156, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_157, density=0, layup=COMPOSITELAYUP-1-2_157, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_158, density=0, layup=COMPOSITELAYUP-1-2_158, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_159, density=0, layup=COMPOSITELAYUP-1-2_159, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_160, density=0, layup=COMPOSITELAYUP-1-2_160, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_161, density=0, layup=COMPOSITELAYUP-1-2_161, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_162, density=0, layup=COMPOSITELAYUP-1-2_162, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_163, density=0, layup=COMPOSITELAYUP-1-2_163, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_164, density=0, layup=COMPOSITELAYUP-1-2_164, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_165, density=0, layup=COMPOSITELAYUP-1-2_165, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_166, density=0, layup=COMPOSITELAYUP-1-2_166, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_167, density=0, layup=COMPOSITELAYUP-1-2_167, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_168, density=0, layup=COMPOSITELAYUP-1-2_168, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_169, density=0, layup=COMPOSITELAYUP-1-2_169, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_170, density=0, layup=COMPOSITELAYUP-1-2_170, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_171, density=0, layup=COMPOSITELAYUP-1-2_171, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_172, density=0, layup=COMPOSITELAYUP-1-2_172, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_173, density=0, layup=COMPOSITELAYUP-1-2_173, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_174, density=0, layup=COMPOSITELAYUP-1-2_174, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_175, density=0, layup=COMPOSITELAYUP-1-2_175, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_176, density=0, layup=COMPOSITELAYUP-1-2_176, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_177, density=0, layup=COMPOSITELAYUP-1-2_177, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_178, density=0, layup=COMPOSITELAYUP-1-2_178, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_179, density=0, layup=COMPOSITELAYUP-1-2_179, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_180, density=0, layup=COMPOSITELAYUP-1-2_180, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_181, density=0, layup=COMPOSITELAYUP-1-2_181, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_182, density=0, layup=COMPOSITELAYUP-1-2_182, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_183, density=0, layup=COMPOSITELAYUP-1-2_183, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_184, density=0, layup=COMPOSITELAYUP-1-2_184, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_185, density=0, layup=COMPOSITELAYUP-1-2_185, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_186, density=0, layup=COMPOSITELAYUP-1-2_186, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_187, density=0, layup=COMPOSITELAYUP-1-2_187, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_188, density=0, layup=COMPOSITELAYUP-1-2_188, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_189, density=0, layup=COMPOSITELAYUP-1-2_189, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_190, density=0, layup=COMPOSITELAYUP-1-2_190, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_191, density=0, layup=COMPOSITELAYUP-1-2_191, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_192, density=0, layup=COMPOSITELAYUP-1-2_192, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_193, density=0, layup=COMPOSITELAYUP-1-2_193, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_194, density=0, layup=COMPOSITELAYUP-1-2_194, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_195, density=0, layup=COMPOSITELAYUP-1-2_195, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_196, density=0, layup=COMPOSITELAYUP-1-2_196, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_197, density=0, layup=COMPOSITELAYUP-1-2_197, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_198, density=0, layup=COMPOSITELAYUP-1-2_198, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_199, density=0, layup=COMPOSITELAYUP-1-2_199, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_200, density=0, layup=COMPOSITELAYUP-1-2_200, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_201, density=0, layup=COMPOSITELAYUP-1-2_201, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_202, density=0, layup=COMPOSITELAYUP-1-2_202, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_203, density=0, layup=COMPOSITELAYUP-1-2_203, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_204, density=0, layup=COMPOSITELAYUP-1-2_204, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_205, density=0, layup=COMPOSITELAYUP-1-2_205, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_206, density=0, layup=COMPOSITELAYUP-1-2_206, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_207, density=0, layup=COMPOSITELAYUP-1-2_207, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_208, density=0, layup=COMPOSITELAYUP-1-2_208, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_209, density=0, layup=COMPOSITELAYUP-1-2_209, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_210, density=0, layup=COMPOSITELAYUP-1-2_210, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_211, density=0, layup=COMPOSITELAYUP-1-2_211, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_212, density=0, layup=COMPOSITELAYUP-1-2_212, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_213, density=0, layup=COMPOSITELAYUP-1-2_213, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_214, density=0, layup=COMPOSITELAYUP-1-2_214, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_215, density=0, layup=COMPOSITELAYUP-1-2_215, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_216, density=0, layup=COMPOSITELAYUP-1-2_216, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_217, density=0, layup=COMPOSITELAYUP-1-2_217, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_218, density=0, layup=COMPOSITELAYUP-1-2_218, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_219, density=0, layup=COMPOSITELAYUP-1-2_219, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_220, density=0, layup=COMPOSITELAYUP-1-2_220, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_221, density=0, layup=COMPOSITELAYUP-1-2_221, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_222, density=0, layup=COMPOSITELAYUP-1-2_222, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_223, density=0, layup=COMPOSITELAYUP-1-2_223, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_224, density=0, layup=COMPOSITELAYUP-1-2_224, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_225, density=0, layup=COMPOSITELAYUP-1-2_225, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_226, density=0, layup=COMPOSITELAYUP-1-2_226, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_227, density=0, layup=COMPOSITELAYUP-1-2_227, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_228, density=0, layup=COMPOSITELAYUP-1-2_228, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_229, density=0, layup=COMPOSITELAYUP-1-2_229, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_230, density=0, layup=COMPOSITELAYUP-1-2_230, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_231, density=0, layup=COMPOSITELAYUP-1-2_231, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_232, density=0, layup=COMPOSITELAYUP-1-2_232, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_233, density=0, layup=COMPOSITELAYUP-1-2_233, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_234, density=0, layup=COMPOSITELAYUP-1-2_234, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_235, density=0, layup=COMPOSITELAYUP-1-2_235, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_236, density=0, layup=COMPOSITELAYUP-1-2_236, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_237, density=0, layup=COMPOSITELAYUP-1-2_237, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_238, density=0, layup=COMPOSITELAYUP-1-2_238, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_239, density=0, layup=COMPOSITELAYUP-1-2_239, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_240, density=0, layup=COMPOSITELAYUP-1-2_240, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_241, density=0, layup=COMPOSITELAYUP-1-2_241, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_242, density=0, layup=COMPOSITELAYUP-1-2_242, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_243, density=0, layup=COMPOSITELAYUP-1-2_243, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_244, density=0, layup=COMPOSITELAYUP-1-2_244, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_245, density=0, layup=COMPOSITELAYUP-1-2_245, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_246, density=0, layup=COMPOSITELAYUP-1-2_246, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_247, density=0, layup=COMPOSITELAYUP-1-2_247, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_248, density=0, layup=COMPOSITELAYUP-1-2_248, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_249, density=0, layup=COMPOSITELAYUP-1-2_249, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_250, density=0, layup=COMPOSITELAYUP-1-2_250, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_251, density=0, layup=COMPOSITELAYUP-1-2_251, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_252, density=0, layup=COMPOSITELAYUP-1-2_252, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_253, density=0, layup=COMPOSITELAYUP-1-2_253, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_254, density=0, layup=COMPOSITELAYUP-1-2_254, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_255, density=0, layup=COMPOSITELAYUP-1-2_255, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_256, density=0, layup=COMPOSITELAYUP-1-2_256, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_257, density=0, layup=COMPOSITELAYUP-1-2_257, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_258, density=0, layup=COMPOSITELAYUP-1-2_258, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_259, density=0, layup=COMPOSITELAYUP-1-2_259, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_260, density=0, layup=COMPOSITELAYUP-1-2_260, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_261, density=0, layup=COMPOSITELAYUP-1-2_261, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_262, density=0, layup=COMPOSITELAYUP-1-2_262, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_263, density=0, layup=COMPOSITELAYUP-1-2_263, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_264, density=0, layup=COMPOSITELAYUP-1-2_264, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_265, density=0, layup=COMPOSITELAYUP-1-2_265, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_266, density=0, layup=COMPOSITELAYUP-1-2_266, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_267, density=0, layup=COMPOSITELAYUP-1-2_267, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_268, density=0, layup=COMPOSITELAYUP-1-2_268, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_269, density=0, layup=COMPOSITELAYUP-1-2_269, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_270, density=0, layup=COMPOSITELAYUP-1-2_270, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_271, density=0, layup=COMPOSITELAYUP-1-2_271, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_272, density=0, layup=COMPOSITELAYUP-1-2_272, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_273, density=0, layup=COMPOSITELAYUP-1-2_273, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_274, density=0, layup=COMPOSITELAYUP-1-2_274, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_275, density=0, layup=COMPOSITELAYUP-1-2_275, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_276, density=0, layup=COMPOSITELAYUP-1-2_276, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_277, density=0, layup=COMPOSITELAYUP-1-2_277, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_278, density=0, layup=COMPOSITELAYUP-1-2_278, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_279, density=0, layup=COMPOSITELAYUP-1-2_279, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_280, density=0, layup=COMPOSITELAYUP-1-2_280, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_281, density=0, layup=COMPOSITELAYUP-1-2_281, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_282, density=0, layup=COMPOSITELAYUP-1-2_282, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_283, density=0, layup=COMPOSITELAYUP-1-2_283, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_284, density=0, layup=COMPOSITELAYUP-1-2_284, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_285, density=0, layup=COMPOSITELAYUP-1-2_285, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-2_286, density=0, layup=COMPOSITELAYUP-1-2_286, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *shellsection, elset=ASSEMBLY_PART-1-1_COMPOSITELAYUP-1-1_0, density=0, layup=COMPOSITELAYUP-1-1_0, composite, orientation=ASSEMBLY_PART-1-1_ORI-1, offset, symmetric
+  *surface, type=ELEMENT, name=ASSEMBLY_SURF-1
+  *surface, type=ELEMENT, name=ASSEMBLY_SURF-1
+  *boundary
+  *boundary
+  *surface, type=ELEMENT, name=ASSEMBLY_SURF-1
+  *output, field
+  *output, field
+  *output, history
+  *output, history
+  *elementoutput, directions=YES
+  *elementoutput, elset=ASSEMBLY_PART-1-1_STEERED
+  *output, field
+  *output, field
+  *output, history
+  *output, history
+  *elementoutput, directions=YES
+  *elementoutput, elset=ASSEMBLY_PART-1-1_STEERED
+  *output, field
+  *output, field
+  *output, history
+  *output, history
+  *elementoutput, directions=YES
+  *elementoutput, elset=ASSEMBLY_PART-1-1_STEERED
+  *Step, name=Step-1, nlgeom=NO, perturbation
+  *output, field
+  *output, field
+  *output, history
+  *output, history
+  *Step, name=Step-1, nlgeom=NO, perturbation
+  *Step, name=Step-1, nlgeom=NO, perturbation
+  *static
+
+ ***WARNING: IN A STATIC PERTURBATION STEP USER SUPPLIED DATA CARD IS IGNORED. 
+             ONLY ONE INCREMENT OF ANALYSIS IS POSSIBLE. THE TIME INCREMENT AND 
+             THE TIME PERIOD ARE SET TO A SMALL NUMBER.
+  *dsload
+  *output, field
+  *nodeoutput
+  *output, field
+  *elementoutput, directions=YES
+  *output, history
+  *elementoutput, elset=ASSEMBLY_PART-1-1_STEERED
+  *output, history
+  *energyoutput
+  *endstep
+
+ ***WARNING: ELEMENT TYPE S4R HAS NO OUTPUT AT SECTION POINT 13.  SECTION POINT 
+             REMOVED
+
+ ***WARNING: ELEMENT TYPE S4R HAS NO OUTPUT AT SECTION POINT 14.  SECTION POINT 
+             REMOVED
+
+ ***WARNING: ELEMENT TYPE S4R HAS NO OUTPUT AT SECTION POINT 15.  SECTION POINT 
+             REMOVED
+
+ ***WARNING: ELEMENT TYPE S4R HAS NO OUTPUT AT SECTION POINT 16.  SECTION POINT 
+             REMOVED
+
+ ***WARNING: ELEMENT TYPE S4R HAS NO OUTPUT AT SECTION POINT 13.  SECTION POINT 
+             REMOVED
+
+ ***WARNING: ELEMENT TYPE S4R HAS NO OUTPUT AT SECTION POINT 14.  SECTION POINT 
+             REMOVED
+
+ ***WARNING: ELEMENT TYPE S4R HAS NO OUTPUT AT SECTION POINT 15.  SECTION POINT 
+             REMOVED
+
+ ***WARNING: ELEMENT TYPE S4R HAS NO OUTPUT AT SECTION POINT 16.  SECTION POINT 
+             REMOVED
+  *boundary
+  *Step, name=Step-1, nlgeom=NO, perturbation
+  *static
+  *endstep
+
+     - (RAMP) OR (STEP) - INDICATE USE OF DEFAULT AMPLITUDES ASSOCIATED WITH THE STEP
+
+
+
+                            P R O B L E M   S I Z E
+
+
+          NUMBER OF ELEMENTS IS                                  1475
+          NUMBER OF NODES IS                                     1560
+          NUMBER OF NODES DEFINED BY THE USER                    1560
+          TOTAL NUMBER OF VARIABLES IN THE MODEL                 9360
+          (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
+           VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =      0.0    
+       SYSTEM TIME (SEC)    =      0.0    
+       TOTAL CPU TIME (SEC) =      0.0    
+       WALLCLOCK TIME (SEC) =            0
+1
+
+   Abaqus 2023                                  Date 14-Jan-2025   Time 16:14:59
+   For use by ICOMAT under license from Dassault Systemes or its subsidiary.
+
+                                                                                               STEP    1  INCREMENT    1
+                                                                                          TIME COMPLETED IN THIS STEP   0.00    
+
+
+                        S T E P       1     S T A T I C   A N A L Y S I S
+
+
+                                                                                          
+
+          FIXED TIME INCREMENTS
+          TIME INCREMENT IS                                    2.220E-16
+          TIME PERIOD IS                                       2.220E-16
+
+     LINEAR EQUATION SOLVER TYPE         DIRECT SPARSE
+
+     THIS IS A LINEAR PERTURBATION STEP.
+     ALL LOADS ARE DEFINED AS CHANGE IN LOAD TO THE REFERENCE STATE
+
+
+
+                    TOTAL MASS OF MODEL
+
+                      1.4195939E-05
+
+
+                    LOCATION OF THE CENTER OF MASS OF THE MODEL
+
+                      -51.93019           47.81762           0.000000    
+
+
+                    MOMENTS OF INERTIA ABOUT THE ORIGIN
+                           I(XX)               I(YY)               I(ZZ)
+
+                      4.2034866E-02      4.6926834E-02      8.8958776E-02
+
+
+                    PRODUCTS OF INERTIA ABOUT THE ORIGIN
+                           I(XY)               I(XZ)               I(YZ)
+
+                      2.9098052E-02       0.000000           0.000000    
+
+
+                    MOMENTS OF INERTIA ABOUT THE CENTER OF MASS
+                           I(XX)               I(YY)               I(ZZ)
+
+                      9.5755034E-03      8.6440069E-03      1.8216586E-02
+
+
+                    PRODUCTS OF INERTIA ABOUT THE CENTER OF MASS
+                           I(XY)               I(XZ)               I(YZ)
+
+                     -6.1529931E-03       0.000000           0.000000    
+  
+                   M E M O R Y   E S T I M A T E
+  
+ PROCESS      FLOATING PT       MINIMUM MEMORY        MEMORY TO
+              OPERATIONS           REQUIRED          MINIMIZE I/O
+             PER ITERATION           (MB)               (MB)
+  
+     1          2.28E+08               22                 47
+  
+ NOTE:
+      (1) SINCE ABAQUS DOES NOT PRE-ALLOCATE MEMORY AND ONLY ALLOCATES MEMORY AS NEEDED DURING THE ANALYSIS,
+          THE MEMORY REQUIREMENT PRINTED HERE CAN ONLY BE VIEWED AS A GENERAL GUIDELINE BASED ON THE BEST
+          KNOWLEDGE AVAILABLE AT THE BEGINNING OF A STEP BEFORE THE SOLUTION PROCESS HAS BEGUN.
+      (2) THE ESTIMATE IS NORMALLY UPDATED AT THE BEGINNING OF EVERY STEP. IT IS THE MAXIMUM VALUE OF THE
+          ESTIMATE FROM THE CURRENT STEP TO THE LAST STEP OF THE ANALYSIS, WITH UNSYMMETRIC SOLUTION TAKEN
+          INTO ACCOUNT IF APPLICABLE. 
+      (3) SINCE THE ESTIMATE IS BASED ON THE ACTIVE DEGREES OF FREEDOM IN THE FIRST ITERATION OF THE 
+          CURRENT STEP, THE MEMORY ESTIMATE MIGHT BE SIGNIFICANTLY DIFFERENT THAN ACTUAL USAGE FOR 
+          PROBLEMS WITH SUBSTANTIAL CHANGES IN ACTIVE DEGREES OF FREEDOM BETWEEN STEPS (OR EVEN WITHIN
+          THE SAME STEP). EXAMPLES ARE: PROBLEMS WITH SIGNIFICANT CONTACT CHANGES, PROBLEMS WITH MODEL
+          CHANGE, PROBLEMS WITH BOTH STATIC STEP AND STEADY STATE DYNAMIC PROCEDURES WHERE ACOUSTIC 
+          ELEMENTS WILL ONLY BE ACTIVATED IN THE STEADY STATE DYNAMIC STEPS.
+      (4) FOR MULTI-PROCESS EXECUTION, THE ESTIMATED VALUE OF FLOATING POINT OPERATIONS FOR EACH PROCESS
+          IS BASED ON AN INITIAL SCHEDULING OF OPERATIONS AND MIGHT NOT REFLECT THE ACTUAL FLOATING 
+          POINT OPERATIONS COMPLETED ON EACH PROCESS. OPERATIONS ARE DYNAMICALLY BALANCED DURING EXECUTION, 
+          SO THE ACTUAL BALANCE OF OPERATIONS BETWEEN PROCESSES IS EXPECTED TO BE BETTER THAN THE ESTIMATE
+          PRINTED HERE.
+      (5) THE UPPER LIMIT OF MEMORY THAT CAN BE ALLOCATED BY ABAQUS WILL IN GENERAL DEPEND ON THE VALUE OF
+          THE "MEMORY" PARAMETER AND THE AMOUNT OF PHYSICAL MEMORY AVAILABLE ON THE MACHINE. PLEASE SEE
+          THE "ABAQUS ANALYSIS USER'S MANUAL" FOR MORE DETAILS. THE ACTUAL USAGE OF MEMORY AND OF DISK
+          SPACE FOR SCRATCH DATA WILL DEPEND ON THIS UPPER LIMIT AS WELL AS THE MEMORY REQUIRED TO MINIMIZE
+          I/O. IF THE MEMORY UPPER LIMIT IS GREATER THAN THE MEMORY REQUIRED TO MINIMIZE I/O, THEN THE ACTUAL
+          MEMORY USAGE WILL BE CLOSE TO THE ESTIMATED "MEMORY TO MINIMIZE I/O" VALUE, AND THE SCRATCH DISK
+          USAGE WILL BE CLOSE-TO-ZERO; OTHERWISE, THE ACTUAL MEMORY USED WILL BE CLOSE TO THE PREVIOUSLY
+          MENTIONED MEMORY LIMIT, AND THE SCRATCH DISK USAGE WILL BE ROUGHLY PROPORTIONAL TO THE DIFFERENCE
+          BETWEEN THE ESTIMATED "MEMORY TO MINIMIZE I/O" AND THE MEMORY UPPER LIMIT. HOWEVER ACCURATE
+          ESTIMATE OF THE SCRATCH DISK SPACE IS NOT POSSIBLE.
+      (6) USING "*RESTART, WRITE" CAN GENERATE A LARGE AMOUNT OF DATA WRITTEN IN THE WORK DIRECTORY.
+
+
+          THE ANALYSIS HAS BEEN COMPLETED
+
+
+
+                              ANALYSIS COMPLETE
+                              WITH     10 WARNING MESSAGES ON THE DAT FILE
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =     0.10    
+       SYSTEM TIME (SEC)    =      0.0    
+       TOTAL CPU TIME (SEC) =     0.10    
+       WALLCLOCK TIME (SEC) =            0

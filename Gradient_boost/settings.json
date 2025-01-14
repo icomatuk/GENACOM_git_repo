@@ -1,0 +1,249 @@
+{
+  "components": [
+    {
+      "inputs": {
+        "composite.panel.CompositeLayup-1-2.0.thickness": 0.4,
+        "composite.panel.CompositeLayup-1-2.2.thickness": 0.2
+      },
+      "name": "abaqus",
+      "options": {},
+      "outputs": {
+        "MASS.Step-1.PART-1-1.STEERED": 0.0,
+        "U.Step-1.PART-1-1.N60.1": 0.0,
+        "U.Step-1.PART-1-1.N60.2": 0.0,
+        "U.Step-1.PART-1-1.N60.3": 0.0,
+        "U.Step-1.PART-1-1.N1560.norm": 0.0,
+        "T-RATIO-MIN.PART-1-1.CompositeLayup-1-2.2": 0.0,
+        "T-RATIO-MAX.PART-1-1.CompositeLayup-1-2.0": 0.0,
+        "TSAIW.Step-1.PART-1-1.STEERED.0": 0.0,
+        "TSAIW.Step-1.PART-1-1.STEERED.1": 0.0,
+        "TSAIW.Step-1.PART-1-1.STEERED.2": 0.0,
+        "E.Step-1.PART-1-1.STEERED.0.E12": 0.0,
+        "E.Step-1.PART-1-1.STEERED.1.MAX_PRINCIPAL": 0.0
+      },
+      "parameters": {
+        "analysis_file": "master.inp",
+        "analysis_input_folder_path": "inputs",
+        "analysis_post_script": "inputs/extract_constraints_data_from_odb.py",
+        "composite": {
+          "panel": {
+            "CompositeLayup-1-2": {
+              "elset": "CompositeLayup-1-2",
+              "offset": "",
+              "orientation": "ORI-1",
+              "plies": [
+                {
+                  "angle": 45.0,
+                  "material": "Material-1",
+                  "name": "Ply-1",
+                  "thickness": 0.2
+                },
+                {
+                  "angle": 0.0,
+                  "material": "Material-1",
+                  "name": "Ply-2",
+                  "thickness": 0.2
+                },
+                {
+                  "angle": 45.0,
+                  "material": "Material-1",
+                  "name": "Ply-3",
+                  "thickness": 0.2
+                }
+              ]
+            },
+            "CompositeLayup-1-1": {
+              "elset": "CompositeLayup-1-1",
+              "offset": "",
+              "orientation": "ORI-1",
+              "plies": [
+                {
+                  "angle": 45.0,
+                  "material": "Material-1",
+                  "name": "Ply-1",
+                  "thickness": 0.2
+                },
+                {
+                  "angle": 45.0,
+                  "material": "Material-1",
+                  "name": "Ply-3",
+                  "thickness": 0.2
+                }
+              ]
+            }
+          }
+        },
+        "rts_mesh_files": {
+          "panel": {
+            "mesh": "mesh.inp",
+            "shell_sections": "designed_sections.inp",
+            "element_sets": "designed_elsets.inp"
+          }
+        },
+        "rts_plies": {
+          "panel": {
+            "Ply-2": {
+              "control_pts": [
+                {
+                  "d": 0.0,
+                  "id": "p-start-fixed",
+                  "inc_angle": 45.0
+                },
+                {
+                  "d": 50.0,
+                  "id": "p1",
+                  "inc_angle": 15.0
+                },
+                {
+                  "d": 100.0,
+                  "id": "p-end-fixed",
+                  "inc_angle": 25.0
+                }
+              ],
+              "path_end": [
+                -100.0,
+                100.0,
+                0.0
+              ],
+              "path_start": [
+                -100.0,
+                0.0,
+                0.0
+              ],
+              "orientations": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "open-mdao",
+      "options": {},
+      "parameters": {
+        "user_input_files": [],
+        "workflow": [
+          "abaqus"
+        ],
+        "all_connections": [],
+        "outputs_folder": "outputs",
+        "optimizer": "SLSQP",
+        "max_iter": 10,
+        "tol": 0.0001,
+        "disp": true,
+        "debug_print": [
+          "desvars",
+          "ln_cons",
+          "nl_cons",
+          "objs",
+          "totals"
+        ],
+        "approx_totals": true,
+        "fd_step": 0.01,
+        "input_variables": [
+          {
+            "component": "abaqus",
+            "name": "composite.panel.CompositeLayup-1-2.0.thickness",
+            "lower": 0.01,
+            "upper": 5.0,
+            "value": 5.0
+          },
+          {
+            "component": "abaqus",
+            "name": "composite.panel.CompositeLayup-1-2.2.thickness",
+            "lower": 0.01,
+            "upper": 5.0,
+            "value": 5.0
+          }
+        ],
+        "output_variables": [
+          {
+            "component": "abaqus",
+            "type": "objective",
+            "name": "MASS.Step-1.PART-1-1.STEERED",
+            "value": 0.0,
+            "scaler": 1000.0
+          },
+          {
+            "component": "abaqus",
+            "type": "constraint",
+            "name": "U.Step-1.PART-1-1.N1560.norm",
+            "value": [
+              0
+            ],
+            "upper": 0.1
+          },
+          {
+            "component": "abaqus",
+            "type": "constraint",
+            "name": "U.Step-1.PART-1-1.N60.1",
+            "value": [
+              0
+            ],
+            "upper": 0.02
+          },
+          {
+            "component": "abaqus",
+            "type": "constraint",
+            "name": "U.Step-1.PART-1-1.N60.2",
+            "value": [
+              0
+            ],
+            "lower": -0.05
+          },
+          {
+            "component": "abaqus",
+            "type": "constraint",
+            "name": "T-RATIO-MIN.PART-1-1.CompositeLayup-1-2.2",
+            "value": [
+              0
+            ],
+            "lower": 0.10
+          },
+          {
+            "component": "abaqus",
+            "type": "constraint",
+            "name": "T-RATIO-MAX.PART-1-1.CompositeLayup-1-2.0",
+            "value": [
+              0
+            ],
+            "upper": 0.60
+          },
+          {
+            "component": "abaqus",
+            "type": "constraint",
+            "name": "TSAIW.Step-1.PART-1-1.STEERED.0",
+            "value": [
+              0
+            ],
+            "upper": 0.1
+          },
+          {
+            "component": "abaqus",
+            "type": "constraint",
+            "name": "E.Step-1.PART-1-1.STEERED.0.E12",
+            "value": [
+              0
+            ],
+            "upper": 0.001
+          },
+          {
+            "component": "abaqus",
+            "type": "constraint",
+            "name": "E.Step-1.PART-1-1.STEERED.1.MAX_PRINCIPAL",
+            "value": [
+              0
+            ],
+            "upper": 0.001
+          }
+        ],
+        "driver": {
+          "type": "optimisation"
+        },
+        "visualise": [
+          "n2_diagram",
+          "plot_history"
+        ]
+      }
+    }
+  ]
+}
