@@ -2,7 +2,7 @@
   "components": [
     {
       "inputs": {
-        "composite.panel.CompositeLayup-1-2.0.thickness": 0.4
+        "composite.panel.CompositeLayup-1-2.0.thickness": 0.1
       },
       "name": "abaqus",
       "options": {},
@@ -154,15 +154,6 @@
             "name": "MASS.Step-1.PART-1-1.STEERED",
             "value": 0.0,
             "scaler": 100000.0
-          },
-          {
-            "component": "abaqus",
-            "type": "constraint",
-            "name": "U.Step-1.PART-1-1.N1560.norm",
-            "value": [
-              0
-            ],
-            "upper": 0.1
           },
           {
             "component": "abaqus",

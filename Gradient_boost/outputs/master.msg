@@ -1,6 +1,6 @@
 1
 
-   Abaqus 2023                                  Date 14-Jan-2025   Time 17:25:54
+   Abaqus 2023                                  Date 21-Jan-2025   Time 11:01:13
    For use by ICOMAT under license from Dassault Systemes or its subsidiary.
 
                                                                                  

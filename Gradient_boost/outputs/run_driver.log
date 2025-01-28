@@ -10,139 +10,106 @@ Completed rts setup for part panel.
 Driver debug print for iter coord: rank0:ScipyOptimize_SLSQP|0
 --------------------------------------------------------------
 Design Vars
-{'abaqus.composite:panel:CompositeLayup-1-2:0:thickness': array([0.4])}
+{'abaqus.composite:panel:CompositeLayup-1-2:0:thickness': array([0.1])}
 
 Calling compute.
 message: 
- {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.4]}}, 'get_grads': False, 'get_outputs': True}
-Completed writing of RTS section input data for part panel.
- Number of composite shell sections in panel = 287.
-20250114-172329: Compute completed.
-Nonlinear constraints
-{'abaqus.U:Step-1:PART-1-1:N1560:norm': array([0.06872992]),
- 'abaqus.U:Step-1:PART-1-1:N60:1': array([0.01935162])}
-
-Linear constraints
-None
-
-Objectives
-{'abaqus.MASS:Step-1:PART-1-1:STEERED': array([1.38779569e-05])}
-
-Driver debug print for iter coord: rank0:ScipyOptimize_SLSQP|1
---------------------------------------------------------------
-Design Vars
-{'abaqus.composite:panel:CompositeLayup-1-2:0:thickness': array([0.4])}
-
-Calling compute.
-message: 
- {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.4]}}, 'get_grads': False, 'get_outputs': True}
+ {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.1]}}, 'get_grads': False, 'get_outputs': True}
 Completed writing of RTS section input data for part panel.
  Number of composite shell sections in panel = 287.
 deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
 
-20250114-172355: Compute completed.
+20250121-105503: Compute completed.
 Nonlinear constraints
-{'abaqus.U:Step-1:PART-1-1:N1560:norm': array([0.06872992]),
- 'abaqus.U:Step-1:PART-1-1:N60:1': array([0.01935162])}
+{'abaqus.U:Step-1:PART-1-1:N60:1': array([0.02862511])}
 
 Linear constraints
 None
 
 Objectives
-{'abaqus.MASS:Step-1:PART-1-1:STEERED': array([1.38779569e-05])}
+{'abaqus.MASS:Step-1:PART-1-1:STEERED': array([8.81965207e-06])}
+
+Driver debug print for iter coord: rank0:ScipyOptimize_SLSQP|1
+--------------------------------------------------------------
+Design Vars
+{'abaqus.composite:panel:CompositeLayup-1-2:0:thickness': array([0.1])}
+
+Calling compute.
+message: 
+ {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.1]}}, 'get_grads': False, 'get_outputs': True}
+Completed writing of RTS section input data for part panel.
+ Number of composite shell sections in panel = 287.
+deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
+
+20250121-105537: Compute completed.
+Nonlinear constraints
+{'abaqus.U:Step-1:PART-1-1:N60:1': array([0.02862511])}
+
+Linear constraints
+None
+
+Objectives
+{'abaqus.MASS:Step-1:PART-1-1:STEERED': array([8.81965207e-06])}
 
 Driver total derivatives for iteration: 2
 -----------------------------------------
 
 Calling compute.
 message: 
- {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.41000000000000003]}}, 'get_grads': False, 'get_outputs': True}
+ {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.11]}}, 'get_grads': False, 'get_outputs': True}
 Completed writing of RTS section input data for part panel.
  Number of composite shell sections in panel = 287.
 deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
 
-20250114-172419: Compute completed.
-Elapsed time to approx totals: 24.169023599999996 secs
+20250121-105608: Compute completed.
+Elapsed time to approx totals: 31.273473199999998 secs
 
 {('abaqus.MASS:Step-1:PART-1-1:STEERED', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[1.68610313]])}
-{('abaqus.U:Step-1:PART-1-1:N1560:norm', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[-0.07399842]])}
-{('abaqus.U:Step-1:PART-1-1:N60:1', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[-0.01984406]])}
+{('abaqus.U:Step-1:PART-1-1:N60:1', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[-0.04714876]])}
 
 Driver debug print for iter coord: rank0:ScipyOptimize_SLSQP|2
 --------------------------------------------------------------
 Design Vars
-{'abaqus.composite:panel:CompositeLayup-1-2:0:thickness': array([0.36732635])}
+{'abaqus.composite:panel:CompositeLayup-1-2:0:thickness': array([0.28293388])}
 
 Calling compute.
 message: 
- {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.36732635234707167]}}, 'get_grads': False, 'get_outputs': True}
+ {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.28293388167251365]}}, 'get_grads': False, 'get_outputs': True}
 Completed writing of RTS section input data for part panel.
  Number of composite shell sections in panel = 287.
 deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
 
-20250114-172443: Compute completed.
+20250121-105641: Compute completed.
 Nonlinear constraints
-{'abaqus.U:Step-1:PART-1-1:N1560:norm': array([0.07127193]),
- 'abaqus.U:Step-1:PART-1-1:N60:1': array([0.02003306])}
+{'abaqus.U:Step-1:PART-1-1:N60:1': array([0.02206864])}
 
 Linear constraints
 None
 
 Objectives
-{'abaqus.MASS:Step-1:PART-1-1:STEERED': array([1.33270396e-05])}
-
-
----------
-
-
-Major iteration convergence checks (// slsqp_optmz.f line 495):
-
-
-    abs(f-f0) < acc : ABS(f-f0)=0.055091732065193355, acc=0.0001, so check is False
-
-    h3 < acc        : h3=3.3059641718864025e-05, acc=0.0001, so check is True
-
----------
-
-Driver total derivatives for iteration: 3
------------------------------------------
-
-Calling compute.
-message: 
- {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.3773263523470717]}}, 'get_grads': False, 'get_outputs': True}
-Completed writing of RTS section input data for part panel.
- Number of composite shell sections in panel = 287.
-deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
-
-20250114-172508: Compute completed.
-Elapsed time to approx totals: 24.419378199999997 secs
-
-{('abaqus.MASS:Step-1:PART-1-1:STEERED', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[1.68610313]])}
-{('abaqus.U:Step-1:PART-1-1:N1560:norm', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[-0.07989928]])}
-{('abaqus.U:Step-1:PART-1-1:N60:1', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[-0.02141465]])}
+{'abaqus.MASS:Step-1:PART-1-1:STEERED': array([1.19041051e-05])}
 
 Driver debug print for iter coord: rank0:ScipyOptimize_SLSQP|3
 --------------------------------------------------------------
 Design Vars
-{'abaqus.composite:panel:CompositeLayup-1-2:0:thickness': array([0.36887014])}
+{'abaqus.composite:panel:CompositeLayup-1-2:0:thickness': array([0.1373268])}
 
 Calling compute.
 message: 
- {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.3688701389330206]}}, 'get_grads': False, 'get_outputs': True}
+ {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.13732679868697714]}}, 'get_grads': False, 'get_outputs': True}
 Completed writing of RTS section input data for part panel.
  Number of composite shell sections in panel = 287.
 deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
 
-20250114-172534: Compute completed.
+20250121-105712: Compute completed.
 Nonlinear constraints
-{'abaqus.U:Step-1:PART-1-1:N1560:norm': array([0.07114732]),
- 'abaqus.U:Step-1:PART-1-1:N60:1': array([0.01999966])}
+{'abaqus.U:Step-1:PART-1-1:N60:1': array([0.02694978])}
 
 Linear constraints
 None
 
 Objectives
-{'abaqus.MASS:Step-1:PART-1-1:STEERED': array([1.3353073e-05])}
+{'abaqus.MASS:Step-1:PART-1-1:STEERED': array([9.44902331e-06])}
 
 
 ---------
@@ -151,9 +118,9 @@ Objectives
 Major iteration convergence checks (// slsqp_optmz.f line 495):
 
 
-    abs(f-f0) < acc : ABS(f-f0)=0.00260333763435483, acc=0.0001, so check is False
+    abs(f-f0) < acc : ABS(f-f0)=0.06293712431215681, acc=0.0001, so check is False
 
-    h3 < acc        : h3=0.0, acc=0.0001, so check is True
+    h3 < acc        : h3=0.006949780061841011, acc=0.0001, so check is False
 
 ---------
 
@@ -162,22 +129,174 @@ Driver total derivatives for iteration: 4
 
 Calling compute.
 message: 
- {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.37887013893302063]}}, 'get_grads': False, 'get_outputs': True}
+ {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.14732679868697715]}}, 'get_grads': False, 'get_outputs': True}
 Completed writing of RTS section input data for part panel.
  Number of composite shell sections in panel = 287.
 deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
 
-20250114-172558: Compute completed.
-Elapsed time to approx totals: 24.060384199999987 secs
+20250121-105747: Compute completed.
+Elapsed time to approx totals: 35.052472600000016 secs
 
 {('abaqus.MASS:Step-1:PART-1-1:STEERED', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[1.68610313]])}
-{('abaqus.U:Step-1:PART-1-1:N1560:norm', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[-0.07960498]])}
-{('abaqus.U:Step-1:PART-1-1:N60:1', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[-0.02133604]])}
+{('abaqus.U:Step-1:PART-1-1:N60:1', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[-0.04122481]])}
+
+Driver debug print for iter coord: rank0:ScipyOptimize_SLSQP|4
+--------------------------------------------------------------
+Design Vars
+{'abaqus.composite:panel:CompositeLayup-1-2:0:thickness': array([0.30590927])}
+
+Calling compute.
+message: 
+ {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.3059092732491572]}}, 'get_grads': False, 'get_outputs': True}
+Completed writing of RTS section input data for part panel.
+ Number of composite shell sections in panel = 287.
+deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
+
+20250121-105823: Compute completed.
+Nonlinear constraints
+{'abaqus.U:Step-1:PART-1-1:N60:1': array([0.02147011])}
+
+Linear constraints
+None
+
+Objectives
+{'abaqus.MASS:Step-1:PART-1-1:STEERED': array([1.22914871e-05])}
+
+
+---------
+
+
+Major iteration convergence checks (// slsqp_optmz.f line 495):
+
+
+    abs(f-f0) < acc : ABS(f-f0)=0.28424638003343716, acc=0.0001, so check is False
+
+    h3 < acc        : h3=0.0014701090008020397, acc=0.0001, so check is False
+
+---------
+
+Driver total derivatives for iteration: 5
+-----------------------------------------
+
+Calling compute.
+message: 
+ {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.3159092732491572]}}, 'get_grads': False, 'get_outputs': True}
+Completed writing of RTS section input data for part panel.
+ Number of composite shell sections in panel = 287.
+deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
+
+20250121-105900: Compute completed.
+Elapsed time to approx totals: 36.65408809999997 secs
+
+{('abaqus.MASS:Step-1:PART-1-1:STEERED', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[1.68610313]])}
+{('abaqus.U:Step-1:PART-1-1:N60:1', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[-0.02494324]])}
+
+Driver debug print for iter coord: rank0:ScipyOptimize_SLSQP|5
+--------------------------------------------------------------
+Design Vars
+{'abaqus.composite:panel:CompositeLayup-1-2:0:thickness': array([0.36484745])}
+
+Calling compute.
+message: 
+ {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.36484744654077184]}}, 'get_grads': False, 'get_outputs': True}
+Completed writing of RTS section input data for part panel.
+ Number of composite shell sections in panel = 287.
+deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
+
+20250121-105935: Compute completed.
+Nonlinear constraints
+{'abaqus.U:Step-1:PART-1-1:N60:1': array([0.02008694])}
+
+Linear constraints
+None
+
+Objectives
+{'abaqus.MASS:Step-1:PART-1-1:STEERED': array([1.3285241e-05])}
+
+
+---------
+
+
+Major iteration convergence checks (// slsqp_optmz.f line 495):
+
+
+    abs(f-f0) < acc : ABS(f-f0)=0.09937539289239794, acc=0.0001, so check is False
+
+    h3 < acc        : h3=8.694224059581715e-05, acc=0.0001, so check is True
+
+---------
+
+Driver total derivatives for iteration: 6
+-----------------------------------------
+
+Calling compute.
+message: 
+ {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.37484744654077184]}}, 'get_grads': False, 'get_outputs': True}
+Completed writing of RTS section input data for part panel.
+ Number of composite shell sections in panel = 287.
+deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
+
+20250121-110010: Compute completed.
+Elapsed time to approx totals: 35.75306850000004 secs
+
+{('abaqus.MASS:Step-1:PART-1-1:STEERED', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[1.68610313]])}
+{('abaqus.U:Step-1:PART-1-1:N60:1', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[-0.02154168]])}
+
+Driver debug print for iter coord: rank0:ScipyOptimize_SLSQP|6
+--------------------------------------------------------------
+Design Vars
+{'abaqus.composite:panel:CompositeLayup-1-2:0:thickness': array([0.36888345])}
+
+Calling compute.
+message: 
+ {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.36888344795883143]}}, 'get_grads': False, 'get_outputs': True}
+Completed writing of RTS section input data for part panel.
+ Number of composite shell sections in panel = 287.
+deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
+
+20250121-110045: Compute completed.
+Nonlinear constraints
+{'abaqus.U:Step-1:PART-1-1:N60:1': array([0.01999938])}
+
+Linear constraints
+None
+
+Objectives
+{'abaqus.MASS:Step-1:PART-1-1:STEERED': array([1.33532922e-05])}
+
+
+---------
+
+
+Major iteration convergence checks (// slsqp_optmz.f line 495):
+
+
+    abs(f-f0) < acc : ABS(f-f0)=0.006805112207075581, acc=0.0001, so check is False
+
+    h3 < acc        : h3=0.0, acc=0.0001, so check is True
+
+---------
+
+Driver total derivatives for iteration: 7
+-----------------------------------------
+
+Calling compute.
+message: 
+ {'component': 'abaqus', 'inputs': {'design': {'composite.panel.CompositeLayup-1-2.0.thickness': [0.37888344795883144]}}, 'get_grads': False, 'get_outputs': True}
+Completed writing of RTS section input data for part panel.
+ Number of composite shell sections in panel = 287.
+deleted old odb @ c:\Users\GeorgiosBalokas\Desktop\GENACOM\GENACOM_git_repo\Gradient_boost\outputs\master.odb
+
+20250121-110119: Compute completed.
+Elapsed time to approx totals: 34.449200899999994 secs
+
+{('abaqus.MASS:Step-1:PART-1-1:STEERED', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[1.68610313]])}
+{('abaqus.U:Step-1:PART-1-1:N60:1', 'abaqus.composite:panel:CompositeLayup-1-2:0:thickness'): array([[-0.0213353]])}
 
 Optimization terminated successfully    (Exit mode 0)
-            Current function value: 1.3353072972677182
-            Iterations: 3
-            Function evaluations: 3
-            Gradient evaluations: 3
+            Current function value: 1.335329216090031
+            Iterations: 5
+            Function evaluations: 6
+            Gradient evaluations: 5
 Optimization Complete
 -----------------------------------
