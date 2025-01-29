@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime
 import json
 
-JSON_INPUT_PATH = "script_unconstrained_fd.json"
+JSON_INPUT_PATH = "dapta_input_constrained.json"
 
 from open_mdao import compute, post_process_optimisation 
 

@@ -2,8 +2,9 @@
   "components": [
     {
       "name": "paraboloid",
-      "api": "generic-python3-comp:latest",
-      "options": {},
+      "options": {
+        "get_grads": true
+      },
       "parameters": {
         "user_input_files": [],
         "x": 5.0,
@@ -11,22 +12,20 @@
         "f_xy": 0.0
       },
       "inputs": {
-        "x": "default",
-        "y": "default"
+        "x": 2.0,
+        "y": 3.0
       },
       "outputs": {
-        "f_xy": "default"
+        "f_xy": 0.0
       }
     },
     {
       "name": "open-mdao",
-      "api": "generic-python3-driver:latest",
       "options": {},
       "parameters": {
         "user_input_files": [],
         "workflow": [
-          "link_variables",
-          "abaqus"
+          "paraboloid"
         ],
         "outputs_folder": "Output_test",
         "optimizer": "SLSQP",
@@ -100,6 +99,5 @@
         ]
       }
     }
-  ],
-  "connections": []
+  ]
 }

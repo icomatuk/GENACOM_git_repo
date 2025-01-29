@@ -34,15 +34,10 @@ def compute(msg):
         partials["f_xy"]["y"]["val"] = [x + 2 * (y + 4.0)]
         response["partials"] = partials
 
-
-
     message = f"{datetime.now().strftime('%Y%m%d-%H%M%S')}: Compute paraboloid f(x:{str(x)},y:{str(y)}) = {str(outputs['design']['f_xy'])} on host {HOSTNAME}"
     resp["message"] = message
 
     return response
-
-
-
 
 def setup(msg):
     """Editable setup function."""
