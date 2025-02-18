@@ -1,0 +1,18 @@
+*DESIGN VARIATION, PARAMETER=t_3
+0.0 
+0.0 
+1.0
+1.0
+*DESIGN VARIATION, PARAMETER=t_1
+1.0
+0.0 
+0.0 
+0.0 
+0.0 
+1.0
+*Parameter
+t_1 = 0.1 <= 0.1>
+t_3 = 0.1 <= 0.1>
+*Design Parameter
+t_1 < linked to parameters ['t_1'] > 
+t_3 < linked to parameters ['t_3'] > 

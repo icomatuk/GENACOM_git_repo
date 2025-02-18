@@ -1,0 +1,12 @@
+*Shell Section, elset=CompositeLayup-1-2, composite, orientation=Ori-1, layup=CompositeLayup-1
+<t_1>, 	3, Material-1, 45., Ply-1
+0.2, 	3, Material-1, 0., Ply-2
+<t_3>, 	3, Material-1, 45., Ply-3
+<t_3>, 	3, Material-1, 45., Ply-4
+0.2, 	3, Material-1, 0., Ply-5
+<t_1>, 	3, Material-1, 45., Ply-6
+*Shell Section, elset=CompositeLayup-1-1, composite, orientation=Ori-1, layup=CompositeLayup-1
+0.2, 3, Material-1, 45., Ply-1
+0.2, 3, Material-1, 45., Ply-2
+0.2, 3, Material-1, 45., Ply-3
+0.2, 3, Material-1, 45., Ply-4

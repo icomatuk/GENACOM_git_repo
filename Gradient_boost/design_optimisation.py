@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime
 import json
 
-JSON_INPUT_PATH = "settings.json"
+JSON_INPUT_PATH = "settings_2.json"
 
 from open_mdao import compute, post_process_optimisation 
 

@@ -2,7 +2,8 @@
   "components": [
     {
       "inputs": {
-        "composite.panel.CompositeLayup-1-2.0.thickness": 0.1
+        "composite.panel.CompositeLayup-1-2.0.thickness": 0.1,
+        "composite.panel.CompositeLayup-1-2.2.thickness": 0.1
       },
       "name": "abaqus",
       "options": {},
@@ -145,6 +146,13 @@
             "lower": 0.01,
             "upper": 5.0,
             "value": 5.0
+          },
+          {
+            "component": "abaqus",
+            "name": "composite.panel.CompositeLayup-1-2.2.thickness",
+            "lower": 0.01,
+            "upper": 5.0,
+            "value": 5.0
           }
         ],
         "output_variables": [
@@ -163,6 +171,15 @@
               0
             ],
             "upper": 0.02
+          },
+          {
+            "component": "abaqus",
+            "type": "constraint",
+            "name": "U.Step-1.PART-1-1.N1560.norm",
+            "value": [
+              0
+            ],
+            "upper": 0.05
           }
         ],
         "driver": {

@@ -1,7 +1,11 @@
-*Shell Section, elset=CompositeLayup-1-2, composite, orientation=Ori-1, layup=CompositeLayup-1
-0.2, 3, Material-1, 45., Ply-1
-0.2, 3, Material-1, 0., Ply-2
-0.2, 3, Material-1, 45., Ply-3
-*Shell Section, elset=CompositeLayup-1-1, composite, orientation=Ori-1, layup=CompositeLayup-1
-0.2, 3, Material-1, 45., Ply-1
-0.2, 3, Material-1, 45., Ply-3
+*include, INPUT="designed_elsets.inp"
+***
+*Shell Section, elset=COMPOSITELAYUP-1-2_0, composite, orientation=ORI-1, offset=, density=0., layup=COMPOSITELAYUP-1-2_0, symmetric
+0.178824, 3, Material-1, 45.0, Ply-1
+0.200000, 3, Material-1, 0.0, Ply-2
+0.179490, 3, Material-1, 45.0, Ply-3
+***
+*Shell Section, elset=COMPOSITELAYUP-1-1_0, composite, orientation=ORI-1, offset=, density=0., layup=COMPOSITELAYUP-1-1_0, symmetric
+0.200000, 3, Material-1, 45.0, Ply-1
+0.200000, 3, Material-1, 45.0, Ply-3
+***

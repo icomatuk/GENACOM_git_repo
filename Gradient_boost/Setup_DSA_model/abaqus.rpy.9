@@ -1,0 +1,67 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/Viewer Release 2023 replay file
+# Internal Version: 2022_09_28-21.11.55 183150
+# Run by Georgios.Balokas on Tue Feb 18 16:35:51 2025
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=181.891662597656, 
+    height=249.200012207031)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from viewerModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+o2 = session.openOdb(name='master.odb')
+#: Model: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       5
+#: Number of Node Sets:          2
+#: Number of Steps:              2
+session.viewports['Viewport: 1'].setValues(displayedObject=o2)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].view.setValues(session.views['Front'])
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='U', outputPosition=NODAL, refinement=(INVARIANT, 
+    'Magnitude'), )
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(
+    plotState=CONTOURS_ON_DEF)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=311.505, 
+    farPlane=488.495, width=189.216, height=99.3291, viewOffsetX=48.5755, 
+    viewOffsetY=-14.7342)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=313.316, 
+    farPlane=486.684, width=172.118, height=90.3539, viewOffsetX=48.0041, 
+    viewOffsetY=-13.6798)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=313.446, 
+    farPlane=486.554, width=172.19, height=90.3915, viewOffsetX=46.9827, 
+    viewOffsetY=-7.09687)
+#: The selected probe values were appended to file "C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/abaqus.rpt".
+session.viewports['Viewport: 1'].view.setValues(nearPlane=303.112, 
+    farPlane=496.888, width=325.994, height=171.131, viewOffsetX=87.0555, 
+    viewOffsetY=20.3616)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=301.007, 
+    farPlane=498.993, width=323.729, height=169.942, viewOffsetX=81.2292, 
+    viewOffsetY=-21.0702)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=309.836, 
+    farPlane=490.164, width=238.883, height=125.402, viewOffsetX=57.0506, 
+    viewOffsetY=-7.40395)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=308.082, 
+    farPlane=491.918, width=237.531, height=124.692, viewOffsetX=65.3479, 
+    viewOffsetY=-11.5078)
+#: The selected probe values were appended to file "C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/abaqus.rpt".
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='U', outputPosition=NODAL, refinement=(COMPONENT, 'U1'), )
+#: The selected probe values were appended to file "C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/abaqus.rpt".
+session.viewports['Viewport: 1'].view.setValues(nearPlane=316.964, 
+    farPlane=483.036, width=116.886, height=61.3593, viewOffsetX=53.9513, 
+    viewOffsetY=-7.72274)
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='U', outputPosition=NODAL, refinement=(COMPONENT, 'U2'), )

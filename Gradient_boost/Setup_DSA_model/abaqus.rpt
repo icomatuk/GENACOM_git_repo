@@ -1,0 +1,534 @@
+
+                  X               _temp_1     
+
+                0.                 8.43051E-06
+                1.                 8.43051E-06
+
+
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 11 16:53:40 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: d_U_t_1, U1
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1          60        0.0        50.        0.0    18.E-03        50.   395.E-15
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements  d_U_t_1, U1
+------------------------------------------------------------
+    PART-1-1          60         59   -17.E-03
+    PART-1-1        1560       1475   -50.E-03
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 11 16:54:04 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: d_U_t_1, U2
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements  d_U_t_1, U2
+------------------------------------------------------------
+    PART-1-1        1560       1475    30.E-03
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 11 17:00:23 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: d_U_t_1, U3
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements  d_U_t_1, U3
+------------------------------------------------------------
+    PART-1-1        1560       1475  -946.E-03
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 11 17:00:48 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, Magnitude
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements  U, Magnitude
+-------------------------------------------------------------
+    PART-1-1        1560       1475    63.E-03
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 11 17:01:29 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, U1
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements      U, U1
+----------------------------------------------------------
+    PART-1-1        1560       1475    53.E-03
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 11 17:01:50 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, U2
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements      U, U2
+----------------------------------------------------------
+    PART-1-1        1560       1475   -35.E-03
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 11 17:07:49 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, U3
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements      U, U3
+----------------------------------------------------------
+    PART-1-1        1560       1475   548.E-15
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 11 17:08:22 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: d_U_t_1, U1
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1          60        0.0        50.        0.0    18.E-03        50.   395.E-15
+
+
+  Part Instance     Node ID  Attached elements  d_U_t_1, U1
+------------------------------------------------------------
+    PART-1-1          60         59   -17.E-03
+
+
+
+                  X               _temp_1     
+
+                0.                 8.43051E-06
+                1.                 8.43051E-06
+
+
+
+
+
+                  X               _temp_2     
+
+                0.                 6.74441E-06
+                1.                 6.74441E-06
+
+
+
+
+
+                  X               _temp_2     
+
+                0.                16.861E-06  
+                1.                16.861E-06  
+
+
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 18 12:49:44 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: d_U_t_1, U1
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1          60        0.0        50.        0.0    18.E-03        50.   395.E-15
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements  d_U_t_1, U1
+------------------------------------------------------------
+    PART-1-1          60         59   -35.E-03
+    PART-1-1        1560       1475  -101.E-03
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 18 12:50:11 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: d_U_t_1, U2
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements  d_U_t_1, U2
+------------------------------------------------------------
+    PART-1-1        1560       1475    61.E-03
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 18 12:50:25 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: d_U_t_1, U3
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements  d_U_t_1, U3
+------------------------------------------------------------
+    PART-1-1        1560       1475    -5.E-12
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 18 12:50:50 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, Magnitude
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements  U, Magnitude
+-------------------------------------------------------------
+    PART-1-1        1560       1475    63.E-03
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 18 12:51:13 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, U1
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements      U, U1
+----------------------------------------------------------
+    PART-1-1        1560       1475    53.E-03
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 18 12:51:33 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, U2
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements      U, U2
+----------------------------------------------------------
+    PART-1-1        1560       1475   -35.E-03
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 18 12:51:45 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, U3
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1        1560        0.0       100.        0.0    53.E-03       100.   548.E-15
+
+
+  Part Instance     Node ID  Attached elements      U, U3
+----------------------------------------------------------
+    PART-1-1        1560       1475   548.E-15
+
+
+
+                  X               _temp_1     
+
+                0.                 1.36574E-03
+                1.                 1.36574E-03
+
+
+
+
+
+                  X               _temp_2     
+
+                0.                 6.74441E-06
+                1.                 6.74441E-06
+
+
+
+
+
+                             d_MASS_t_1 ELSET   d_MASS_t_3 ELSET 
+                  X              STEERED-1          STEERED-1    
+
+                0.                 1.36574E-03       16.861E-06  
+                1.                 1.36574E-03       16.861E-06  
+
+
+
+
+
+                             d_MASS_t_1 ELSET   d_MASS_t_3 ELSET 
+                  X              STEERED-1          STEERED-1    
+
+                0.                 1.36574E-03        1.36574E-03
+                1.                 1.36574E-03        1.36574E-03
+
+
+
+
+
+                             d_MASS_t_1 ELSET   d_MASS_t_3 ELSET 
+                  X              STEERED-1          STEERED-1    
+
+                0.                16.861E-06         16.861E-06  
+                1.                16.861E-06         16.861E-06  
+
+
+
+
+
+                             d_MASS_t_1 ELSET   d_MASS_t_3 ELSET 
+                  X              STEERED-1          STEERED-1    
+
+                0.                 1.36574E-03       16.861E-06  
+                1.                 1.36574E-03       16.861E-06  
+
+
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 18 16:36:13 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, Magnitude
+
+Loc 1 : Integration point values
+
+Probe values reported at integration points
+
+  Part Instance  Element ID        Type  Attached nodes
+--------------------------------------------------------------------------------
+    PART-1-1          58         S4R          58          59         119         118
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 18 16:39:00 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, Magnitude
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1          59        -1.        50.        0.0        -1.        50.   386.E-15
+    PART-1-1          58        -3.        50.        0.0        -3.        50.   377.E-15
+    PART-1-1          60        0.0        50.        0.0    18.E-03        50.   395.E-15
+    PART-1-1          60        0.0        50.        0.0    18.E-03        50.   395.E-15
+
+
+  Part Instance     Node ID  Attached elements  U, Magnitude
+-------------------------------------------------------------
+    PART-1-1          59         58    37.E-03
+    PART-1-1          59         59    37.E-03
+    PART-1-1          58         57    36.E-03
+    PART-1-1          58         58    36.E-03
+    PART-1-1          60         59    38.E-03
+    PART-1-1          60         59    38.E-03
+
+
+********************************************************************************
+Probe Values Report, written on Tue Feb 18 16:39:34 2025
+
+Source
+-------
+
+   ODB: C:/Users/GeorgiosBalokas/Desktop/GENACOM/GENACOM_git_repo/Gradient_boost/Setup_DSA_model/master.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: U, U1
+
+Probe values reported at nodes
+
+  Part Instance     Node ID            Orig. Coords                     Def. Coords          
+                                 X          Y          Z          X          Y          Z    
+-------------------------------------------------------------------------------------------
+    PART-1-1          60        0.0        50.        0.0    18.E-03        50.   395.E-15
+
+
+  Part Instance     Node ID  Attached elements      U, U1
+----------------------------------------------------------
+    PART-1-1          60         59    18.E-03
+
+
