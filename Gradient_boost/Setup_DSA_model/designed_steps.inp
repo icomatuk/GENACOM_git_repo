@@ -5,7 +5,7 @@ t_3 = 0.1
 *Design Parameter
 t_1, t_3
 *DSA controls
-t_1, FD, 0.01
+t_1, CD, 0.01
 t_3, CD, 0.01
 ** ----------------------------------------------------------------
 *Step, name=Step-1, nlgeom=NO, dsa

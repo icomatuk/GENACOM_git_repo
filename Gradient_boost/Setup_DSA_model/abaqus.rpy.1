@@ -2,7 +2,7 @@
 #
 # Abaqus/Viewer Release 2023 replay file
 # Internal Version: 2022_09_28-21.11.55 183150
-# Run by Georgios.Balokas on Tue Feb 18 16:19:39 2025
+# Run by Georgios.Balokas on Tue Feb 18 16:44:31 2025
 #
 
 # from driverUtils import executeOnCaeGraphicsStartup
@@ -28,4 +28,18 @@ o2 = session.openOdb(name='master.odb')
 #: Number of Steps:              2
 session.viewports['Viewport: 1'].setValues(displayedObject=o2)
 session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='d_U_t_1', outputPosition=NODAL, refinement=(COMPONENT, 
+    'U1'), )
+session.viewports['Viewport: 1'].odbDisplay.display.setValues(
+    plotState=CONTOURS_ON_DEF)
 session.viewports['Viewport: 1'].view.setValues(session.views['Front'])
+session.viewports['Viewport: 1'].view.setValues(nearPlane=317.051, 
+    farPlane=502.036, width=218.652, height=114.782, viewOffsetX=-0.335032, 
+    viewOffsetY=-3.6465)
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='U', outputPosition=NODAL, refinement=(INVARIANT, 
+    'Magnitude'), )
+session.viewports['Viewport: 1'].view.setValues(nearPlane=319.05, 
+    farPlane=500.037, width=220.031, height=115.506, viewOffsetX=47.1292, 
+    viewOffsetY=-10.6116)

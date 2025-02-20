@@ -4,6 +4,7 @@
 import sys
 import os
 from odbAccess import *
+import math
 
 job = 'master'
 step = 'Step-1'
@@ -24,22 +25,63 @@ def fu(job,step):
 	dunorm_dt1 = []
 	
 	# Schleife über Frames
-	for frameNr in range(0,len(thisStep.frames)):
-	    du1_dt1.append( thisStep.frames[frameNr].fieldOutputs['d_U_t_1'].getSubset(position=NODAL).values[59].data[0] )
-	    du2_dt1.append( thisStep.frames[frameNr].fieldOutputs['d_U_t_1'].getSubset(position=NODAL).values[59].data[1] )
-	    du3_dt1.append( thisStep.frames[frameNr].fieldOutputs['d_U_t_1'].getSubset(position=NODAL).values[59].data[2] )
-	    u1.append( thisStep.frames[frameNr].fieldOutputs['U'].getSubset(position=NODAL).values[59].data[0] )
-	    u2.append( thisStep.frames[frameNr].fieldOutputs['U'].getSubset(position=NODAL).values[59].data[1] )
-	    u3.append( thisStep.frames[frameNr].fieldOutputs['U'].getSubset(position=NODAL).values[59].data[2] )
-	    unorm.append( thisStep.frames[frameNr].fieldOutputs['U'].getSubset(position=NODAL).values[59].data[3] )
+	for frameNr in range(1,len(thisStep.frames)):
+	    du1_dt1_temp = thisStep.frames[frameNr].fieldOutputs['d_U_t_1'].getSubset(position=NODAL).values[1559].data[0] 
+	    du2_dt1_temp = thisStep.frames[frameNr].fieldOutputs['d_U_t_1'].getSubset(position=NODAL).values[1559].data[1] 
+	    du3_dt1_temp = thisStep.frames[frameNr].fieldOutputs['d_U_t_1'].getSubset(position=NODAL).values[1559].data[2] 
+	    du1_dt1.append(du1_dt1_temp)
+	    du2_dt1.append(du2_dt1_temp)
+	    du3_dt1.append(du3_dt1_temp)
+	    u1_temp = thisStep.frames[frameNr].fieldOutputs['U'].getSubset(position=NODAL).values[1559].data[0]
+	    u2_temp = thisStep.frames[frameNr].fieldOutputs['U'].getSubset(position=NODAL).values[1559].data[1]
+	    u3_temp = thisStep.frames[frameNr].fieldOutputs['U'].getSubset(position=NODAL).values[1559].data[2]
+	    u1.append(u1_temp)
+	    u2.append(u2_temp)
+	    u3.append(u3_temp)
+	    unorm_temp = math.sqrt(u1_temp**2+u2_temp**2+u3_temp**2)
+	    unorm.append(unorm_temp)  
+	    dunorm_dt1.append( (u1_temp/unorm_temp)*du1_dt1_temp + (u2_temp/unorm_temp)*du2_dt1_temp + (u3_temp/unorm_temp)*du3_dt1_temp )  
+
+
+
+
+	houtputs = thisStep.historyRegions["ElementSet PART-1-1.STEERED"].historyOutputs
+	mass = []
+	dmass_dt1 = []
+	for fieldName in houtputs.keys():
+        # print "field: " + fieldName  
+        
+	    if fieldName == "MASS":
+	        # print 'mass for element set ', elset_name, ": "
+	       temp1 =  houtputs[fieldName].data[0][1] # mass @ time increment 0
+	       print temp1
+	       mass.append(temp1)
+	    if fieldName == "d_MASS_t_1":
+	        # print 'mass for element set ', elset_name, ": "
+	       temp2 =  houtputs[fieldName].data[0][1]
+	       print temp2
+	       dmass_dt1.append(temp2)
+            
+
+
+        
 	    
 	odb.close()
 
 	# Ergebnisdatei
 	resFile = open(job+'_Fu.txt','w')
 	#resFile.write('   u     F\n')
-	for i in range(len(unorm)):
-	  resFile.write(str(unorm[i])+'\n')
+	for i in range(len(u1)):
+	  resFile.write('U1: '+str(u1[i])+'\n')
+	  resFile.write('U2: '+str(u2[i])+'\n')
+	  resFile.write('U3: '+str(u3[i])+'\n')
+	  resFile.write('Umagnitude: '+str(unorm[i])+'\n')
+	  resFile.write('dU1/dt1: '+str(du1_dt1[i])+'\n')
+	  resFile.write('dU2/dt1: '+str(du2_dt1[i])+'\n')
+	  resFile.write('dU3/dt1: '+str(du3_dt1[i])+'\n')
+	  resFile.write('dUnorm/dt1: '+str(dunorm_dt1[i])+'\n')
+	  resFile.write('Mass: '+str(mass[i])+'\n')
+	  resFile.write('dMass/dt1: '+str(dmass_dt1[i])+'\n')      
 	resFile.close()
 
 def buckling(job,step):

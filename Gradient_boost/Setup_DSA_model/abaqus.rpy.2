@@ -2,7 +2,7 @@
 #
 # Abaqus/Viewer Release 2023 replay file
 # Internal Version: 2022_09_28-21.11.55 183150
-# Run by Georgios.Balokas on Tue Feb 18 16:34:17 2025
+# Run by Georgios.Balokas on Wed Feb 19 10:04:36 2025
 #
 
 # from driverUtils import executeOnCaeGraphicsStartup
@@ -10,8 +10,8 @@
 #: Executing "onCaeGraphicsStartup()" in the site directory ...
 from abaqus import *
 from abaqusConstants import *
-session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=181.891662597656, 
-    height=249.200012207031)
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=160.295822143555, 
+    height=219.533340454102)
 session.viewports['Viewport: 1'].makeCurrent()
 session.viewports['Viewport: 1'].maximize()
 from viewerModules import *
@@ -28,27 +28,21 @@ o2 = session.openOdb(name='master.odb')
 #: Number of Steps:              2
 session.viewports['Viewport: 1'].setValues(displayedObject=o2)
 session.viewports['Viewport: 1'].makeCurrent()
-session.viewports['Viewport: 1'].view.setValues(session.views['Front'])
 session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
     variableLabel='U', outputPosition=NODAL, refinement=(INVARIANT, 
     'Magnitude'), )
 session.viewports['Viewport: 1'].odbDisplay.display.setValues(
     plotState=CONTOURS_ON_DEF)
-session.viewports['Viewport: 1'].view.setValues(nearPlane=311.505, 
-    farPlane=488.495, width=189.216, height=99.3291, viewOffsetX=30.6458, 
-    viewOffsetY=-7.49414)
-session.viewports['Viewport: 1'].view.setValues(nearPlane=312.02, 
-    farPlane=487.98, width=189.529, height=99.4934, viewOffsetX=41.9051, 
-    viewOffsetY=-11.0689)
-session.viewports['Viewport: 1'].view.setValues(nearPlane=323.053, 
-    farPlane=476.947, width=49.8792, height=26.1842, viewOffsetX=42.5819, 
-    viewOffsetY=-6.6896)
-session.viewports['Viewport: 1'].view.setValues(nearPlane=323.496, 
-    farPlane=476.504, width=49.9476, height=26.2201, viewOffsetX=47.0711, 
-    viewOffsetY=-5.75994)
-session.viewports['Viewport: 1'].view.setValues(nearPlane=312.715, 
-    farPlane=487.285, width=200.293, height=105.144, viewOffsetX=64.4275, 
-    viewOffsetY=2.98298)
-session.viewports['Viewport: 1'].view.setValues(nearPlane=311.219, 
-    farPlane=488.781, width=199.336, height=104.642, viewOffsetX=45.3647, 
-    viewOffsetY=-16.4341)
+session.viewports['Viewport: 1'].view.setValues(session.views['Front'])
+session.viewports['Viewport: 1'].view.setValues(nearPlane=319.912, 
+    farPlane=499.175, width=178.771, height=93.8121, viewOffsetX=44.4524, 
+    viewOffsetY=-5.99822)
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='U', outputPosition=NODAL, refinement=(COMPONENT, 'U1'), )
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='U', outputPosition=NODAL, refinement=(COMPONENT, 'U2'), )
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='U', outputPosition=NODAL, refinement=(COMPONENT, 'U3'), )
+session.viewports['Viewport: 1'].odbDisplay.setPrimaryVariable(
+    variableLabel='U', outputPosition=NODAL, refinement=(INVARIANT, 
+    'Magnitude'), )
